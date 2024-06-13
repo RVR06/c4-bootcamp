@@ -1,0 +1,15 @@
+# IDE
+.vscode/
+.vs/
+
+# Structurizr
+**/.structurizr/
+**/workspace.json
+
+# HUGO
+**/.hugo_build.lock
+**/resources
+**/public
+
+# NPM
+**/node_modules

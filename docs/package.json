@@ -1,0 +1,15 @@
+{
+    "name": "c4-bootcamp",
+    "version": "1.0.0",
+    "description": "C4 bootcamp companion site.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rvr06/c4-bootcamp.git"
+    },
+    "homepage": "https://github.com/rvr06/c4-bootcamp#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.4.12",
+        "postcss": "^8.4.17",
+        "postcss-cli": "^10.0.0"
+    }
+}

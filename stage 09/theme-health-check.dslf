@@ -1,0 +1,14 @@
+styles {
+	element "#healthy" {
+		stroke #000000
+		background #42a31f
+	}
+	element "#blurry" {
+		stroke #000000
+		background #ffbf00
+	}
+	element "#faulty" {
+		stroke #000000
+		background #e01436
+	}
+}

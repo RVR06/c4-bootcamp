@@ -1,0 +1,46 @@
+styles {
+	element "Person" {
+		background #F4D9FF
+		stroke #834187
+		strokeWidth 8
+		shape Person
+	}
+	
+	element "Software System" {
+		background #CFE4FF
+		stroke #0C7CBA
+		strokeWidth 8
+	}
+	
+	element "Container" {
+		background #FFD9D9
+		stroke #C92D39
+		strokeWidth 8
+	}
+	
+	element "Component" {
+		background #C3F7C8
+		stroke #7AB648
+		strokeWidth 8
+	}
+	
+	element "#external" {
+		background #F5F5F5
+		stroke #666666
+		strokeWidth 8
+	}
+	
+	element "#web" {
+		shape WebBrowser
+	}
+	element "#db" {
+		shape Cylinder
+	}
+	element "#mobile" {
+		shape MobileDevicePortrait
+	}
+	
+	relationship "Relationship" {
+		routing Direct
+	}
+}

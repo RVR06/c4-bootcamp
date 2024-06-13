@@ -1,0 +1,7 @@
+styles {
+	element "Software System" {
+		background #CFE4FF
+		stroke #0C7CBA
+		strokeWidth 8
+	}
+}

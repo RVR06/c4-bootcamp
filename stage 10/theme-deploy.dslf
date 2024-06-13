@@ -1,0 +1,23 @@
+styles {
+	element "#android" {
+		stroke #3DDC84
+		color #3DDC84
+		icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/android.png"
+	}
+	
+	element "#opera" {
+		stroke #FF1B2D
+		color #FF1B2D
+		icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/opera.png"
+	}
+	
+	element "#daedalus" {
+		icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/daedalus.png"
+	}
+}
+
+theme https://static.structurizr.com/themes/microsoft-azure-2021.01.26/theme.json
+
+branding {
+	logo https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/daedalus.png
+}

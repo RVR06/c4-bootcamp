@@ -1,0 +1,5 @@
+[Path: .]
+[xxx]
+ Version:	 1.234
+ Type:		 deb
+ Found by:	 YYY

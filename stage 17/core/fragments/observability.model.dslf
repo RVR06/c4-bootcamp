@@ -1,0 +1,26 @@
+
+obs = softwareSystem "Observability" "Provides observability insights." "" {
+	grafana = container "Grafana" "Operational dashboards for your data here, there, or anywhere." "" "#web, #external" {
+		url https://grafana.com
+	}
+	loki = container "Loki" "Horizontally-scalable, highly available, multi-tenant log aggregation system." "" "#external" {
+		url https://grafana.com/oss/loki/
+	}
+	prometheus = container "Prometheus" "From metrics to insight. Power your metrics and alerting with a leading open-source  solution." "" "#external" {
+		url https://prometheus.io
+	}
+	otel = container "OpenTelemetry Collector" "Vendor-agnostic implementation on how to receive, process and export telemetry data" "" "#external" {
+		url https://github.com/open-telemetry/opentelemetry-collector
+	}
+	jaeger = container "Jaeger" "Open source, end-to-end distributed tracing. Monitor and troubleshoot transactions in complex distributed systems." "" "#external" {
+		url https://www.jaegertracing.io
+	}
+	
+	otel -> loki "exports to" "" ""
+	otel -> jaeger "exports to" "" ""
+	otel -> prometheus "exports to" "" ""
+	
+	loki -> grafana "fuels" "" ""
+	jaeger -> grafana "fuels" "" ""
+	prometheus -> grafana "fuels" "" ""
+}
