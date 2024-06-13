@@ -25,7 +25,7 @@ jobs:
   build:
     permissions:
       contents: read
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: ${{ env.documentation_root }}
@@ -53,10 +53,13 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: |
+          hugo \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4 
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ${{ env.documentation_root }}/public
 
