@@ -1,6 +1,6 @@
 baseURL = "/"
 title = "C4 BOOTCAMP"
-canonifyURLs = true
+relativeURLs = true
 
 enableEmoji = true
 
