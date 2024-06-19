@@ -23,12 +23,12 @@ As usual, issues quickly arise, namely when you discover a WHAT can be achieved 
 {{% cardpane %}}
 
 {{% card header="**Travel**" %}}  
-![logo]({{ .Site.BaseURL }}assets/adr/travel.jpg)  
+![logo]({{ absURL "/assets" }}/adr/travel.jpg)  
 Assuming you would like to travel for holidays. With friends. Every one towards a single relaxing place. This is the WHAT.
 {{% /card %}}
 
 {{% card header="**Plan**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/plan.jpg)
+![logo]({{ absURL "/assets" }}/adr/plan.jpg)
 Some will go by plane, some other by car. Some will stage the journey, stopping-off every city in the middle. Some others will choose to travel by night. And so on. This is the HOW.
 And it is important to explain why those decisions were made eg plane makes me sick, or nighttime passage is cheaper. And so on. 
 {{% /card %}}
@@ -42,17 +42,17 @@ Log sizable decision making during project lifecycle is a good habit. As for oth
 {{% cardpane %}}
 
 {{% card header="**Identity**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/identity.jpg)
+![logo]({{ absURL "/assets" }}/adr/identity.jpg)
 Each ADR deserves a proper name. Make it unambiguous. It is also common to index them to support timeline discussion.
 {{% /card %}}
 
 {{% card header="**Date**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/date.jpg)
+![logo]({{ absURL "/assets" }}/adr/date.jpg)
 Most of the project we work on stretch out over several months. It is thus important to track when we make decision to be able to contextually correlate later on.
 {{% /card %}}
 
 {{% card header="**Status**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/status.jpg)
+![logo]({{ absURL "/assets" }}/adr/status.jpg)
 Decision making is a process. As for every process, it is important to track the status, and keep full history including ideas that were refused. They often help further brain storming.
 {{% /card %}}
 
@@ -61,17 +61,17 @@ Decision making is a process. As for every process, it is important to track the
 {{% cardpane %}}
 
 {{% card header="**Context**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/context.jpg)
+![logo]({{ absURL "/assets" }}/adr/context.jpg)
 Take time to specify the context which leads to this decision process. Are we experiencing bottlenecks or issues? Would we like to ensure that we will avoid those pitfalls? 
 {{% /card %}}
 
 {{% card header="**Decision**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/decision.jpg)
+![logo]({{ absURL "/assets" }}/adr/decision.jpg)
 Explain your choice. Provide insights if you pick a choice within multiple offer. Stress out if you fallback rather than choose (eg for cost reason).
 {{% /card %}}
 
 {{% card header="**Consequence**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/consequence.jpg)
+![logo]({{ absURL "/assets" }}/adr/consequence.jpg)
 Every single decision may have impact on the project, on the team, on your daily life. Foresee consequences of a choice is a good habit. And ensure every one agree upon both decision & consequence(s).
 {{% /card %}}
 
@@ -84,7 +84,7 @@ Find below the hypothetic ADR subset relative to C4 one could end up with on a g
 {{% cardpane %}}
 
 {{% card header="**001. Use C4 model**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/001.jpg)
+![logo]({{ absURL "/assets" }}/adr/001.jpg)
 * 05/08/2020
 * Accepted
 * Project architecture is complex and must be regularly discussed with heterogenous audience. We lack both diagramming convention and unified model.
@@ -93,7 +93,7 @@ Find below the hypothetic ADR subset relative to C4 one could end up with on a g
 {{% /card %}}
 
 {{% card header="**005. Strengthen C4 tooling**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/005.jpg)
+![logo]({{ absURL "/assets" }}/adr/005.jpg)
 * 07/11/2020
 * Accepted
 * C4 model has been broadly accepted but is costly to put in place due to lack of tooling
@@ -102,7 +102,7 @@ Find below the hypothetic ADR subset relative to C4 one could end up with on a g
 {{% /card %}}
 
 {{% card header="**018. Code-first approach**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/018.jpg)
+![logo]({{ absURL "/assets" }}/adr/018.jpg)
 * 09/18/2021
 * Proposed
 * We experience difficulty over past months to properly scale the sketch-first approach. Maintenance cost is high. Diagramming are uncoupled from source code.
@@ -121,17 +121,17 @@ Once again, we do not store & track for the sake of storing & tracking. Data are
 {{% cardpane %}}
 
 {{% card header="**Timeline**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/timeline.png)
+![logo]({{ absURL "/assets" }}/adr/timeline.png)
 Timeline view to correlate with project lifecycle eg do we make more decisions during design phase or hardening one? How sustainable our decisions are?
 {{% /card %}}
 
 {{% card header="**Correlation**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/correlation.png)
+![logo]({{ absURL "/assets" }}/adr/correlation.png)
 Timeline view focusing (arbitrarily) on year but highlighting ADR name. Could be used in conjunction with the previous one. Could be great to sketch a pattern from the sequence of status. Full green sequence highlights Mojo momentum. Green & red interleaves may highlight uncertainty or paradigm inversion.  
 {{% /card %}}
 
 {{% card header="**Graph**" %}}
-![logo]({{ .Site.BaseURL }}assets/adr/graph.png)
+![logo]({{ absURL "/assets" }}/adr/graph.png)
 Graph view to materialize ADR coupling eg relationship or lineage (accepted -> superseded). Can be helpful to rewind the journey or to start a brand-new project ie directly starting with leaves.
 {{% /card %}}
 

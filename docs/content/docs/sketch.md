@@ -34,11 +34,11 @@ But reality is rapidly catching up...
 
 What we imagine ending up with...
 
-![]({{ .Site.BaseURL }}assets/plan.jpg)
+![]({{ absURL "/assets" }}/plan.jpg)
 
 ... and what we are likely to inherit...
 
-![]({{ .Site.BaseURL }}assets/reality.jpg)
+![]({{ absURL "/assets" }}/reality.jpg)
 
 Very few of us that previously experienced this whiteboard-based design approach can shamelessly say that:
 - They never take a snapshot of a whiteboard for later (and drop it within a pompous MoM email...)
