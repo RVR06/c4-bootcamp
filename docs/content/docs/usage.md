@@ -9,7 +9,7 @@ author: Romain Vasseur
 
 ## Are you kidding me?  
 
-![]({{ .Site.BaseURL }}assets/compare-wrong.svg)
+![]({{ absURL "/assets" }}/compare-wrong.svg)
 
 Not at the same level, not with the same legend, ...   
 How one could reasonably make decision such as:
@@ -21,37 +21,37 @@ How one could reasonably make decision such as:
 
 Same model, same semantic. 
 
-![]({{ .Site.BaseURL }}assets/compare-good.svg)
+![]({{ absURL "/assets" }}/compare-good.svg)
 
 Time is properly used to discuss content rather than form.
 
 ## Adaptive audience control
 
-![]({{ .Site.BaseURL }}assets/adaptive.svg)
+![]({{ absURL "/assets" }}/adaptive.svg)
 
 As for `MVVM` pattern, we can switch between the most meaningful view for a given `software model`. Model lossless simplification eases identification & comparison (like hashing).
 
 ## Spot the differences
 
-![]({{ .Site.BaseURL }}assets/spot.svg)
+![]({{ absURL "/assets" }}/spot.svg)
 
 Compare underlying model not layout.
 
 ## Layout consistency
 
-![]({{ .Site.BaseURL }}assets/compare-best.svg)
+![]({{ absURL "/assets" }}/compare-best.svg)
 
 Enforce layout consistency eases the process.
 
 ## Gimme the 13mm wrench please
 
-![]({{ .Site.BaseURL }}assets/pattern.svg)
+![]({{ absURL "/assets" }}/pattern.svg)
 
 Identification is the first step for reusability
 
 ## Draft’em all at once makes me shine (at least, i believe it does…)®
 
-![]({{ .Site.BaseURL }}assets/consistency.svg)
+![]({{ absURL "/assets" }}/consistency.svg)
 
 - What’s the important feature?  
 - What’s the important level?  
@@ -59,6 +59,6 @@ Identification is the first step for reusability
 
 ## Audience servant®
 
-![]({{ .Site.BaseURL }}assets/scope.svg)
+![]({{ absURL "/assets" }}/scope.svg)
 
 Basically, all you can do to ease audience grasping content, rather than losing time & mental overload, must be done.
