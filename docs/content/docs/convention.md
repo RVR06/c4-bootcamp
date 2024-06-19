@@ -64,7 +64,7 @@ Color is a powerful vector to visually identify and cluster stuff. Eg, we are us
 
 Shape is another well-known and broadly used tool to discriminate stuff and ease classification. To achieve this goal, shapes should be meaningful and usage broadly acknowledged.  
 
-![]({{ absURL "/assets" }}/shapes.svg)
+![](/assets/shapes.svg)
 
 ### Transparency
 
