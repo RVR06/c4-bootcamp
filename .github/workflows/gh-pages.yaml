@@ -34,7 +34,6 @@ jobs:
         with:
           fetch-depth: 0
           submodules: recursive
-          lfs: 'true'
           
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -82,7 +81,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
