@@ -76,7 +76,7 @@ views {
 
 At this point we name our `tag` `#external`, as it will be used to tag elements we consider as external regarding the `software model` we are crafting, `MILA`. This has nothing to do with the fact an element belongs - or not - to the same `group`. Imagine you are looking on a geographic map for insights regarding bordering regions. Regions that belong to the same country and adjacent countries are considered _external_. They are there to give spatial context, but are usually grayed out when region insights we are focusing on is colored. 
 
-![](../docs/static/assets/map.png)
+![](map.png)
 
 Consider `Grand Est` French region as our current `software model`. Both `Hauts-de-France` French region and external countries like `Schweiz` are considered _external_, the same way. They provide context but should not steal the focus.
 

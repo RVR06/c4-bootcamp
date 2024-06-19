@@ -9,7 +9,7 @@ author: Romain Vasseur
 
 ## Are you kidding me?  
 
-![](/assets/compare-wrong.svg)
+![](compare-wrong.svg)
 
 Not at the same level, not with the same legend, ...   
 How one could reasonably make decision such as:
@@ -21,37 +21,37 @@ How one could reasonably make decision such as:
 
 Same model, same semantic. 
 
-![](/assets/compare-good.svg)
+![](compare-good.svg)
 
 Time is properly used to discuss content rather than form.
 
 ## Adaptive audience control
 
-![](/assets/adaptive.svg)
+![](adaptive.svg)
 
 As for `MVVM` pattern, we can switch between the most meaningful view for a given `software model`. Model lossless simplification eases identification & comparison (like hashing).
 
 ## Spot the differences
 
-![](/assets/spot.svg)
+![](spot.svg)
 
 Compare underlying model not layout.
 
 ## Layout consistency
 
-![](/assets/compare-best.svg)
+![](compare-best.svg)
 
 Enforce layout consistency eases the process.
 
 ## Gimme the 13mm wrench please
 
-![](/assets/pattern.svg)
+![](pattern.svg)
 
 Identification is the first step for reusability
 
 ## Draft’em all at once makes me shine (at least, i believe it does…)®
 
-![](/assets/consistency.svg)
+![](consistency.svg)
 
 - What’s the important feature?  
 - What’s the important level?  
@@ -59,6 +59,6 @@ Identification is the first step for reusability
 
 ## Audience servant®
 
-![](/assets/scope.svg)
+![](scope.svg)
 
 Basically, all you can do to ease audience grasping content, rather than losing time & mental overload, must be done.

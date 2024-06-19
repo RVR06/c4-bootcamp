@@ -30,7 +30,7 @@ Both name and extension are fixed, and serve 2 purposes:
 
 `Structurizr DSL` is inherently a hierarchical structure (think `JSON`), fully defined [here](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md) (no need to deep dive to attend this course).
 
-![](../docs/static/assets/dsl.svg)
+![](dsl.svg)
 
 It is composed of elements, such as `person` or `container` (mapping the matching `C4 model` taxonomy), which can be enriched with metadata such as `name` or `description`.
 
