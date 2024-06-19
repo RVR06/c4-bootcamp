@@ -29,7 +29,7 @@ Let's introduce the pillars the **C4 model** (created by Simon Brown) is based u
 With ever-growing & complex ecosystems, it becomes unmanageable to end up with a single picture that can both exhaustively capture the whole scope and be properly processed by standard human being. When facing such a situation, splitting the overall problem into chunks or layers, which focus on a dedicated set of aspects instead, is a common way to address the issue.
 Humanity has been treating geographical maps this way (Continent, Country, Region, Local) for centuries.
 
-![]({{ absURL "/assets" }}/map_00.jpg)
+![](/assets/map_00.jpg)
 
 The C4 model is no exception and introduces 4 different zoom levels, hence the name:
 
@@ -69,9 +69,9 @@ Once again, the same is true of the geographic maps we are used to.
 
 |||
 |-|-|
-|![]({{ absURL "/assets" }}/map_01.jpg)|Typical international map. Notice how every country is fairly dealt with: name, color, boundary. No insights.|
-|![]({{ absURL "/assets" }}/map_02.jpg)|If we focus on France, we usually end up with first level of granularity, known as region. Once again, fairness treatment.|
-|![]({{ absURL "/assets" }}/map_03.jpg)|Zooming one last time to department layer. Notice how context is provided through gray neighboring without noising the focused area (the colored one). And once again, each department or dependency is equally processed. |
+|![](/assets/map_01.jpg)|Typical international map. Notice how every country is fairly dealt with: name, color, boundary. No insights.|
+|![](/assets/map_02.jpg)|If we focus on France, we usually end up with first level of granularity, known as region. Once again, fairness treatment.|
+|![](/assets/map_03.jpg)|Zooming one last time to department layer. Notice how context is provided through gray neighboring without noising the focused area (the colored one). And once again, each department or dependency is equally processed. |
 
 It is vital to decrease mental workload to cluster information by introducing this level of consistency or treatment equity. 
 
@@ -92,11 +92,11 @@ The main advantage of these metaphors is that they are easy to grasp regardless 
 
 So, basically, what you should end up with, if you stick to the recipe exposed above is 4 layers with semantic content that you can easily navigate back and forth through and the content is contextually & smartly narrowed.   
 
-![]({{ absURL "/assets" }}/c4.svg)
+![](/assets/c4.svg)
 
 Obviously, this diagram only renders one single system-container-component-code vertical slice. Real life projects are likely to be more complex. That is why it is important to first agree on some [conventions](/docs/convention) before engaging further...
 
-![]({{ absURL "/assets" }}/c4-real.svg)
+![](/assets/c4-real.svg)
 
 ## Complementary diagram
 
@@ -109,7 +109,7 @@ Thus, `C4 model` introduces a bunch of complementary diagrams:
 | C4.W | **W**orkflow | Workflows, even simple ones, poorly accommodate the inherent static nature of diagram. It is used to leverage indexed actions to show case the dynamic of a usage. |
 | C4.D | **D**eployment | 4 main levels describe how a given system is made and can be broken down, w/o specifying how it will be deployed, as it is not relevant in that context. But to cope with this missing dimension, model proposes to tailor new kind of diagram that illustrate how systems and containers will be mapped to infrastructure.|
 
-![]({{ absURL "/assets" }}/c4-lwd.svg)
+![](/assets/c4-lwd.svg)
 
 ## Closing
 
