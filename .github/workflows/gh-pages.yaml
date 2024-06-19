@@ -25,7 +25,7 @@ jobs:
   build:
     permissions:
       contents: read
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     defaults:
       run:
         working-directory: ${{ env.documentation_root }}
@@ -34,6 +34,7 @@ jobs:
         with:
           fetch-depth: 0
           submodules: recursive
+          lfs: 'true'
           
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -52,13 +53,10 @@ jobs:
           extended: true
 
       - name: Build
-        run: |
-          hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --minify
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
           path: ${{ env.documentation_root }}/public
 
@@ -85,4 +83,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v1
