@@ -38,11 +38,11 @@ identifier = person "name" "description" "tags"
 
 You may notice at this stage that your workspace is colorful. It is on purpose to decrease mental load.
 
-![](../docs/static/assets/highlighting.gif)
+![](highlighting.gif)
 
 As a corollary, colorless lines should trigger some warning, as it often means misspelling or improper structural position. To ease diagnostic, simply hover the `C4` keyword, and you will have access to contextual help.
 
-![](../docs/static/assets/hover.png)
+![](hover.png)
 
 ✏️ Save your workspace and refresh your browser.
 
@@ -115,7 +115,7 @@ identifier -> identifier "description" "technology" "tags"
 
 You may notice that relationship parts, before and after the `->`, are also semantically colored to decrease mental load.
 
-![](../docs/static/assets/semantic.gif)
+![](semantic.gif)
 
 ✏️ Save workspace, and refresh the browser.  
 
@@ -170,7 +170,7 @@ And see how, step by step, we strengthen the outcome.
 
 Step by step, while enriching the `software model`, we thicken the `workspace.dsl`. One may have notice that `Cornifer` provides both `Outline` (green) & `Breadcrumb` (red) helpers to quickly navigate within the `workspace`: 
 
-![](../docs/static/assets/outline.png)
+![](outline.png)
 
 For now, it may seem overkill, but as times goes and `workspace` complicates, it will become a powerful tool to efficiently explore the `software model`. 
 

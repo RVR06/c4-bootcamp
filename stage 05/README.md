@@ -47,7 +47,7 @@ You may notice that we do not provide `technology` for the `api` container. It i
 
 `Cornifer` comes in with built-in `Intellisense` to speed up `DSL` edition:
 
-![](../docs/static/assets/intellisense.png)
+![](intellisense.png)
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
 

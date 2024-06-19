@@ -27,7 +27,7 @@ Styling a diagram is an important step. Ensure you don't break both consistency 
 
 Luckily, there is an amazing project - aka [Simple Icons](https://simpleicons.org) - that performs this particular work for us:
 
-![](../docs/static/assets/brand.png)
+![](brand.png)
 
 Sadly, `Structurizr` only deals with `.png` or `.jpg` for icons. Broadly used icons has been converted [here](https://github.com/rvr06/cornifer-contrib) and more are coming.
 

@@ -35,7 +35,7 @@ To ensure everyone can participate to model creation, a widespread practice is t
 C4 model comes with its own, fully specified [here](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md).
 It defines types, data & structure as below:
 
-![](/assets/dsl.svg)
+![](dsl.svg)
 
 This simple grammar is easy to grasp, and layman friendly.
 Most often, DSL comes with syntax highlighter & analyzer as well to support user.
@@ -60,8 +60,8 @@ The underlying idea is to focus on creating a single rich model and be able to p
 Applied to the solar system, we can end up with a model gathering planet name, traits (such as size, distance from the sun, ...), ... 
 Then, we can expose and explore our model in many different ways like:
 
-![](/assets/mvvm_01.svg)
-![](/assets/mvvm_02.svg)
+![](mvvm_01.svg)
+![](mvvm_02.svg)
 
 ## Theme
 
@@ -70,9 +70,9 @@ By uncoupling model from view(s), we are now able to tailor view(s) without even
 
 ||||
 |-|-|-|
-| ![](/assets/theme_01.svg) | Semantic | C4 model semantic color schema we agree upon. |
-| ![](/assets/theme_02.svg) | Corporate | Need to incorporate diagramming within a slide deck or marketing materials where visual consistency does matter and sticks to corporate brand. Just swap your theme. |
-| ![](/assets/theme_03.svg) | High contrast | Experience should be tailored to every user. Every modern OS, IDE or application make accessibility a first-class citizen. Theming supports us on that field by enabling smart UX with a very limited investment. |                                      
+| ![](theme_01.svg) | Semantic | C4 model semantic color schema we agree upon. |
+| ![](theme_02.svg) | Corporate | Need to incorporate diagramming within a slide deck or marketing materials where visual consistency does matter and sticks to corporate brand. Just swap your theme. |
+| ![](theme_03.svg) | High contrast | Experience should be tailored to every user. Every modern OS, IDE or application make accessibility a first-class citizen. Theming supports us on that field by enabling smart UX with a very limited investment. |                                      
 
 ## Point of views
 
@@ -82,9 +82,9 @@ And the beauty here is that all of those are built upon a single common model. I
 
 |||
 |-|-|
-| Exhaustive description of the ecosystem. | ![](/assets/pov_01.svg) | 
-| Highlight workflow. | ![](/assets/pov_02.svg) | 
-| Schematic view to gauge type & cardinality. | ![](/assets/pov_03.svg) | 
+| Exhaustive description of the ecosystem. | ![](pov_01.svg) | 
+| Highlight workflow. | ![](pov_02.svg) | 
+| Schematic view to gauge type & cardinality. | ![](pov_03.svg) | 
 
 ## Structurizr
 
@@ -100,21 +100,21 @@ Assuming your described your model leveraging the C4 DSL (200 lines of text for 
 
 |||
 |-|-|
-| ![](/assets/structurizr_01.svg) | Landscape aka C4.L |
-| ![](/assets/structurizr_02.svg) | Context aka C4.1 | 
-| ![](/assets/structurizr_03.svg) | Container aka C4.2 | 
-| ![](/assets/structurizr_04.svg) | Component aka C4.3 | 
-| ![](/assets/structurizr_05.png) | Back and forth navigation. | 
-| ![](/assets/structurizr_06.svg) | All views can be dynamically filtered leveraging tags. Elements that does not fulfill tags query are made semi-transparent. | 
-| ![](/assets/structurizr_07.png) | You can craft filtered views from a single parent one to highlight different use cases. The layout is kept to ease comparison (spot the difference alike). |
-| ![](/assets/structurizr_08.png) | As it can become difficult without speaker to support, complex diagram can be animated to support journey & ease understanding. |
-| ![](/assets/structurizr_09.svg) | Workflow aka C4.W. Relationships are indexed and animation can be played, including fading in/out elements to improve journey experience. |
-| ![](/assets/structurizr_10.svg) | Deployment aka C4.D. |
-| ![](/assets/structurizr_11.png) | Real-time feedback. Diagram library is shaped & refined as you type. |
-| ![](/assets/structurizr_12.svg) | Every diagram comes with its own dynamic legend to underline active elements & their meaning. |
-| ![](/assets/structurizr_13.png) | Graph view can be generated on-demand if you need to shift gears. |
-| ![](/assets/structurizr_14.jpg) | Architecture Decision Record (see next chapter) support. |
-| ![](/assets/structurizr_15.png) | Your markdown can embed dynamic & up to date C4 views you can interact with (not simple snapshots). |
+| ![](structurizr_01.svg) | Landscape aka C4.L |
+| ![](structurizr_02.svg) | Context aka C4.1 | 
+| ![](structurizr_03.svg) | Container aka C4.2 | 
+| ![](structurizr_04.svg) | Component aka C4.3 | 
+| ![](structurizr_05.png) | Back and forth navigation. | 
+| ![](structurizr_06.svg) | All views can be dynamically filtered leveraging tags. Elements that does not fulfill tags query are made semi-transparent. | 
+| ![](structurizr_07.png) | You can craft filtered views from a single parent one to highlight different use cases. The layout is kept to ease comparison (spot the difference alike). |
+| ![](structurizr_08.png) | As it can become difficult without speaker to support, complex diagram can be animated to support journey & ease understanding. |
+| ![](structurizr_09.svg) | Workflow aka C4.W. Relationships are indexed and animation can be played, including fading in/out elements to improve journey experience. |
+| ![](structurizr_10.svg) | Deployment aka C4.D. |
+| ![](structurizr_11.png) | Real-time feedback. Diagram library is shaped & refined as you type. |
+| ![](structurizr_12.svg) | Every diagram comes with its own dynamic legend to underline active elements & their meaning. |
+| ![](structurizr_13.png) | Graph view can be generated on-demand if you need to shift gears. |
+| ![](structurizr_14.jpg) | Architecture Decision Record (see next chapter) support. |
+| ![](structurizr_15.png) | Your markdown can embed dynamic & up to date C4 views you can interact with (not simple snapshots). |
 
 
 
