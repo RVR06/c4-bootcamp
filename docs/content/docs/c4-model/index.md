@@ -94,7 +94,7 @@ So, basically, what you should end up with, if you stick to the recipe exposed a
 
 ![](c4.svg)
 
-Obviously, this diagram only renders one single system-container-component-code vertical slice. Real life projects are likely to be more complex. That is why it is important to first agree on some [conventions](/docs/convention) before engaging further...
+Obviously, this diagram only renders one single system-container-component-code vertical slice. Real life projects are likely to be more complex. That is why it is important to first agree on some [conventions]({{% relref "/docs/convention" %}}) before engaging further...
 
 ![](c4-real.svg)
 
@@ -116,4 +116,4 @@ Thus, `C4 model` introduces a bunch of complementary diagrams:
 In this session, we introduced the **C4 model** and its underlying concepts.  
 We also sketched some raw diagrams to materialize what we should end up with.  
 It is now time to agree on some conventions, prior to engage further.  
-Good news, that's what the next [session](/docs/convention) is all about.
+Good news, that's what the next [session]({{% relref "/docs/convention" %}}) is all about.
