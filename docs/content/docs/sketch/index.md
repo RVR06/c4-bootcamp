@@ -10,7 +10,7 @@ author: Romain Vasseur
 We are used to **xxx as code** (deployment as code, architecture as code) stuff or **xxx-first** (view-first, view-model-first) approaches to specify from which end we start a journey or we tackle an issue. It is a very important step as it contrasts how we address a situation, especially the inherent biases we should be aware of and keep under control.
 
 This post will give some insights of the **sketch-first** or **architecture as sketch** approach, stressing out pros and cons of such a method.
-It should be read in parallel with [next one](/docs/code), which will cover the **architecture as code** or **code-first** approach.
+It should be read in parallel with [next one]({{% relref "/docs/code" %}}), which will cover the **architecture as code** or **code-first** approach.
 
 Of course, those are the 2 ends of the spectrum. You may end up with mixing the 2 approaches, or shaping an in-between one.
 Choice is yours to pick but remember to make **contextual** decision.
@@ -59,7 +59,7 @@ What is wrong? We started whiteboarding - aka collaborative pen & paper - follow
 Of course, if you do not access neither an IDE nor a computer, you won't be able to code, but is is merely a side-effect...
 
 We all are engineers. Engineers cope with issues with methods and tools.
-We define method 2 chapters ago, spending time to introduce [C4 model](/docs/c4-model) & [convention](/docs/convention).
+We define method 2 chapters ago, spending time to introduce [C4 model]({{% relref "/docs/c4-model" %}}) & [convention]({{% relref "/docs/convention" %}}).
 It is now time to tailor tools. And software engineers tools are - guess what - software...
 
 ## Diagramming software
@@ -99,4 +99,4 @@ One could overcome some of those with some discipline and time, but some others 
 
 This post highlights benefits and drawbacks of leveraging sketches to build and convey software architecture.
 We saw that picking this choice does not confine us to plain old whiteboard and how one could overcome most of those limitations leveraging methods and tools. This said, remaining drawbacks are difficult to deal with if we stay on this shore. 
-Check out the next [Architecture as Code](/docs/code) stage to balance what we learned here, and discover a brand-new way of crafting a model.
+Check out the next [Architecture as Code]({{% relref "/docs/code" %}}) stage to balance what we learned here, and discover a brand-new way of crafting a model.

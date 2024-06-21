@@ -103,4 +103,4 @@ If you decide to opt for icon usage, please enforce coherency by leveraging icon
 
 So, we go over some useful conventions one should enforce in his model to ensure he surfaces consolidated & compelling materials.
 It is now time to see how we can apply all we have learned so far.
-Next [session](/docs/mila) will process a fictional case study, explaining step by step decisions that have been made to craft the different diagrams. 
+Next [session]({{% relref "/docs/mila" %}}) will process a fictional case study, explaining step by step decisions that have been made to craft the different diagrams. 

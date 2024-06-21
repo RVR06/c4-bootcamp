@@ -10,7 +10,7 @@ author: Romain Vasseur
 Previously, we saw that **sketch-first** approach, as appealing as it may look like, comes with painful drawbacks that can prevent sizable project to properly scale eg huge maintenance cost, human error prone, ...
 
 This post will give some insights of the **code-first** or **architecture as code** approach, stressing out pros and cons of such a method.
-It should be read in parallel with [previous one](/docs/sketch), which covers the **architecture as sketch** or **sketch-first** approach.
+It should be read in parallel with [previous one]({{% relref "/docs/sketch" %}}), which covers the **architecture as sketch** or **sketch-first** approach.
 
 As always, **YMMV**, so spend time to learn and experience prior to make your **own** decision.
 
@@ -32,7 +32,7 @@ C4 model provides such API for both [.NET](https://github.com/structurizr/dotnet
 
 To ensure everyone can participate to model creation, a widespread practice is to shape a **D**omain **S**pecific **L**anguage. This particular language focuses only on a specific domain, hence the name. Narrowing the scope allows to end up with simple syntax and manageable rules, most of the people can rapidly learn & be proficient with. No more coding prerequisites. One well-known diagramming DSL is the [mermaid](https://mermaid-js.github.io/mermaid/#/) one.
 
-C4 model comes with its own, fully specified [here](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md).
+C4 model comes with its own, fully specified [here](https://docs.structurizr.com/dsl/language).
 It defines types, data & structure as below:
 
 ![](dsl.svg)
