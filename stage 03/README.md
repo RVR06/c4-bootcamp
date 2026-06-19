@@ -50,9 +50,9 @@ As a corollary, colorless lines should trigger some warning, as it often means m
 |-|-|
 | ![](./structurizr-1-SystemLandscape-01.svg) | ![](./structurizr-1-SystemContext-01.svg) |
 
-As expected, `person` has been added to the model. However, it is not obvious that `Matt` is a `person`. It is rendered as a plain old box, and you need to focus on the second line - the one embraced with square brackets `[]` - to notice that element type is provided to you, namely `[Software System]` and `[Person]`. So, even if information is prompted, this view requires some effort from the reader. We can live this way, but you can for sure improve the user experience. One may argue this extra workload is manageable. But remember 2 things here:
+As expected, `person` has been added to the model. However, it is not obvious that `Matt` is a `person`. It is rendered as a plain old box, and you need to focus on the second line - the one embraced with square brackets `[]` - to notice that the element type is provided, namely `[Software System]` and `[Person]`. So, even if information is shown, this view requires extra effort from the reader. You could live with this, but you can definitely improve the user experience. You may argue this extra workload is manageable. But remember 2 things here:
 - Audience is by essence heterogenous. What is manageable for you does not mean it is manageable for all.
-- Workload, even the smallest one, that can be spared, has to be. This way, you can allocate more elsewhere.
+- Any workload, even the smallest, should be reduced when possible. This way, you can allocate focus elsewhere.
 
 What about customizing our theme to materialize this difference? Have a look at which traits you can customize [here](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#element-style).
 
@@ -82,7 +82,7 @@ Let's have a look at how we improve - or at least we hope -  the UX:
 |-|-|
 | ![](./structurizr-1-SystemLandscape-02.svg) | ![](./structurizr-1-SystemContext-02.svg) |
 
-One can easily - leveraging both `color` & `shape` - visually clustered information, and UX is definitively better. We can allocate spared brain resources to other activities. Mission completed &check;
+By leveraging both `color` and `shape`, you can visually cluster information much more easily, and the UX is definitely better. You can now allocate those saved cognitive resources to other activities. Mission completed &check;
 
 ## Add a relationship
 
@@ -168,7 +168,7 @@ And see how, step by step, we strengthen the outcome.
 ![](structurizr-1-SystemLandscape.svg)
 ![](structurizr-1-SystemContext.svg)
 
-Step by step, while enriching the `software model`, we thicken the `workspace.dsl`. One may have notice that `Cornifer` provides both `Outline` (green) & `Breadcrumb` (red) helpers to quickly navigate within the `workspace`: 
+Step by step, while enriching the `software model`, you expand `workspace.dsl`. You may have noticed that `Cornifer` provides both `Outline` (green) and `Breadcrumb` (red) helpers to quickly navigate within the `workspace`:
 
 ![](outline.png)
 
@@ -176,13 +176,13 @@ For now, it may seem overkill, but as times goes and `workspace` complicates, it
 
 ## Analysis
 
-`System landscape` & `system context` are the highest zoom levels, showing where your system lives. One should easily grasp interactions with both `person` & other `sofwtware system` if any:
+`System landscape` and `system context` are the highest zoom levels, showing where your system lives. You should be able to quickly grasp interactions with both `person` and other `software systems`, if any:
 - `MILA` is the `software system` we are focusing on. We provide a high level description enabling a layman to quickly jump in.
 - 2 identified `Persona`:
 	* As `Matt`'s title - material scientist - highlights, we are talking about a seasoned user. We capture in the description how he will interact with our application.
 	* `Simon` profile is different, he does not interact with `MILA` directly, that while he only appears with `system landscape`.  
 - We materialize coupling with external `software system`, here `Icarus`. You may notice that we do not provide neither generic description nor exhaustive listing of facilities. We pick those which are contextually meaningful. 
-- We use one-way, technology-agnostic arrows for `relationships` with straightforward intent. Prefer plain old English sentence starting with a verb. One can then fluently read the diagram, prefixing & suffixing the sentence accordingly e.g. `Material scientist` sends pictures to `MILA` or `Icarus` fetches materials from `MILA`. At this stage, it seems useless to give more insights especially regarding technology stack.
+- We use one-way, technology-agnostic arrows for `relationships` with straightforward intent. Prefer plain English sentences starting with a verb. You can then read the diagram fluently by prefixing and suffixing the sentence accordingly, e.g. `Material scientist` sends pictures to `MILA`, or `Icarus` fetches materials from `MILA`. At this stage, it seems unnecessary to add more detail, especially regarding the technology stack.
 
 ## Wrapup
 

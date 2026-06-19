@@ -86,7 +86,7 @@ views {
 ```
 </details><br> 
 
-✏️ To avoid ending up with default, one can amend `theming` to take into account new players:
+✏️ To avoid ending up with defaults, you can amend `theming` to take new elements into account:
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
 

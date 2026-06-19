@@ -16,9 +16,9 @@ Observability is a must-have for modern applications to gather insights and ease
 Observability stack comes with different flavors, but you are likely to share the same for multiple `software systems`. 
  
 There are multiple ways to deal with that within `C4` world:
-1. We could define an external `Observability` `software system` within our workspace, populating internals with `containers` & `components` we have to bridge with. This approach implies you duplicate the `Observability` bunch for every observable `software system` you are documentating. Not that scalable...
-1. We could define an external `Observability` `software system` within our workspace, leveraging `url` field to provide navigation facility to `Observability` dedicated `workspace`. This approach is fine, as long as we don't have to surface coupling with `Observability` `software system` internals.
-1. We could define a dedicated `Observability` `workspace` and leverage `.dsl` tooling to weave pieces. This way, you benefit best of both worlds, meaning you define `Observability` `software system` only once AND you are able to surface in-depth coupling.
+1. You can define an external `Observability` `software system` within your workspace, populating internals with `containers` and `components` you need to bridge with. This approach implies duplicating the `Observability` block for every observable `software system` you document. It does not scale well.
+1. You can define an external `Observability` `software system` within your workspace, leveraging the `url` field to provide navigation to an `Observability`-dedicated `workspace`. This approach is fine, as long as you do not need to surface coupling with `Observability` internals.
+1. You can define a dedicated `Observability` `workspace` and leverage `.dsl` tooling to weave pieces together. This gives you the best of both worlds: you define the `Observability` `software system` once, and you can still surface in-depth coupling.
 
 As you can imagine, this stage will focus on the last alternative.
 

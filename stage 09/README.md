@@ -133,7 +133,7 @@ Resulting view materializes this configuration:
 
 ## Introduce redundancy
 
-Imagine we do foresee high traffic to cope with. We could introduce a new backend stack to make sure we can handle it.
+Imagine you foresee high traffic. You could introduce a new backend stack to make sure you can handle it.
 
 ✏️ Duplicate the `Backend` content by introducing 2 new root `deploymentNode`.
 
@@ -385,7 +385,7 @@ views {
 
 ![](structurizr-1-ProdDeployment-colored-style.svg)
 
-It is still difficult to discriminate for layman. Luckily, there are plenty of [traits](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#element-style) one can modify to strengthen visual identity. 
+It is still difficult for laypeople to distinguish elements quickly. Luckily, there are plenty of [traits](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#element-style) you can modify to strengthen visual identity.
 
 ✏️ What about changing `shape` & `height` as well to explicit?
 
@@ -412,7 +412,7 @@ Better, isn't it?
 
 ## Enrich with health check
 
-`Health check` is a widespread facility in Cloud environment. It allows an administrator or service to ping a dedicated URL to assess the health of an endpoint. Having an easy way of visualizing all ecosystem health at once is very useful when one would like to monitor or diagnose issue. 
+`Health check` is a widespread facility in cloud environments. It allows an administrator or service to ping a dedicated URL and assess the health of an endpoint. Having an easy way to visualize ecosystem health at once is very useful when you need to monitor or diagnose issues.
  
 ✏️ Pick a `software system instance` or a `container instance` you would like to enrich, start typing `healthCheck`.
 
@@ -517,4 +517,4 @@ Whether you leverage autolayout or you tailor a custom one, ensure you keep [con
 - [infrastructure node](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#infrastructurenode)
 - [health check](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#healthcheck)
 
-[^1]: `Health check` is a widespread facility in Cloud environment. It allows an administrator or service to ping a dedicated URL to assess the health of an endpoint. Having an easy way of visualizing all ecosystem health at once is very useful when one would like to monitor or diagnose issue. 
+[^1]: `Health check` is a widespread facility in cloud environments. It allows an administrator or service to ping a dedicated URL and assess the health of an endpoint. Having an easy way to visualize ecosystem health at once is very useful when you need to monitor or diagnose issues.

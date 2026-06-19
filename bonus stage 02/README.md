@@ -14,7 +14,7 @@ Assume we start from a meaningful [workspace](./source.dsl).
 
 ## Semantic view
 
-Thanks to [stage 10](../stage%2010/README.md), we know how one can easily reference existing theme to support diagramming.
+Thanks to [stage 10](../stage%2010/README.md), you now know how to easily reference an existing theme to support diagramming.
 
 ```diff
 views {
@@ -94,7 +94,7 @@ There are many remaining dimensions which could be helpful to visualize, such as
 * identifying elements governance (enterprise vs customer)
 * ...  
 
-Of course, we could leverage `perspective` to do so, but having their own `theme` (and resulting tailored views) will be very helpful for those extra dimensions. `Structurizr` would definitively benefit scaling its approach on that matter...
+Of course, you could leverage `perspective` to do so, but having dedicated `theme` files (and resulting tailored views) is very helpful for those extra dimensions. `Structurizr` would definitely benefit from scaling its approach on that matter...
 
 ## Prerequisites view
 

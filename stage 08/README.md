@@ -15,8 +15,8 @@ In this module, you will learn how to:
 
 ⌛ Estimated time to complete: 30 min
 
-Thus far, we describe our `software model` without materializing how it will be deployed. One important point is to catch that a single `software model` can be deployed in multiple ways, and thus you are likely to end up with multiple `deployment views`. Corollary, make sure you keep other views agnostic of deployment concerns. `Container view` does not care about deployment stack, as a `deployment view` already covers it. Eg specifying `docker` as `technology` or `tags` for a `container` is wrong. It is simply a dimension mismatch.  
-Even if modern `CI/CD` pipelines tend to minimize difference between environments (eg by leveraging containers), you are likely to end up with at least 2 kind of deployments you would like to deploy `software model` on, namely `dev` environment & `prod` one. This chapter will focus on `dev`, next one will cover the `prod`.
+Thus far, we describe our `software model` without materializing how it will be deployed. One important point to keep in mind is that a single `software model` can be deployed in multiple ways, so you are likely to end up with multiple `deployment views`. As a corollary, make sure you keep other views agnostic of deployment concerns. A `container` view does not care about deployment stack, because a `deployment` view already covers it. For example, specifying `docker` as `technology` or `tags` for a `container` is incorrect. It is simply a dimension mismatch.
+Even if modern `CI/CD` pipelines tend to minimize differences between environments (e.g. by leveraging containers), you are likely to end up with at least two deployment targets for your `software model`, namely a `dev` environment and a `prod` environment. This chapter focuses on `dev`; the next one covers `prod`.
 
 ## Define a deployment environment
 
@@ -136,7 +136,7 @@ views {
 
 ## Deploy frontend elements
 
-`Software model` may be composed by multiple `software system` & `container`. For every one of them, repeat the same operation. Let's try to deploy a `software system`. 
+Your `software model` may include multiple `software systems` and `containers`. For each of them, repeat the same operation. Let's now deploy a `software system`.
 
 ✏️ Leveraging `Cornifer`, create a new `deploymentNode` to host `Icarus` `software system`, and pick `softwareSystemInstance` snippet within:
 

@@ -54,7 +54,7 @@ So far, we both enrich the model with valuable insights and noise existing mater
 
 ## Denoise views
 
-You may have noticed we effectively materialize `technology` stack, but those new `elements` now noise existing views. Let's see how we could mitigate that.
+You may have noticed that we effectively materialize the `technology` stack, but those new `elements` now add noise to existing views. Let's see how you can mitigate that.
 
 ✏️ Introduce a new `#fwk` tag and adorn newcomers accordingly.
 

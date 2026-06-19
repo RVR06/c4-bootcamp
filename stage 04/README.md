@@ -15,7 +15,7 @@ In this module, you will learn how to:
 
 ## Comment
 
-As part of the code base, `software model` obeys same rule, namely _all can be enforced by the underlying language - here DSL - has to be_. If we need more, don't be afraid to fallback to plain old comment `#`. As workspace now lands in our repository, one obvious one is to add `copyright` information.
+As part of the code base, your `software model` obeys the same rule, namely _all that can be enforced by the underlying language - here DSL - has to be_. If you need more, don't hesitate to fall back to a plain old `#` comment. Since the workspace now lives in your repository, one obvious addition is `copyright` information.
 
 ✏️ Add `copyright` information.
 
@@ -143,7 +143,7 @@ cornifer = softwareSystem "Cornifer" "" "" {
 	url https://github.com/rvr06/c4-bootcamp/
 }
 ```
-Whatever the one you pick, enriching your model is important as it allows `.dsl` reader to quickly access meaninfgul information, making your `software model` acting as an information hub.
+Whatever you choose, enriching your model is important because it allows `.dsl` readers to quickly access meaningful information, turning your `software model` into an information hub.
 
 ## Wrapup
 

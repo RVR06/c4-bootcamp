@@ -78,7 +78,7 @@ views {
 |-|-|
 | ![](./structurizr-1-SystemLandscape.svg) | ![](./structurizr-1-SystemContext.svg) |
 
-One quick remark regarding why we decided to create a new `theme.dslf` file to define our theme, instead of directly amending `views` section of existing `workspace.dsl` file. Doing so clearly splits concerns, `workspace.dsl` defining `model` & `views` while `theme.dslf` defines `styles`. It is also easier to swap `theme` as we only have to amend the `!include` line within `workspace.dsl` accordingly.
+A quick remark on why we decided to create a new `theme.dslf` file to define our theme, instead of directly amending the `views` section of the existing `workspace.dsl` file. Doing so clearly splits concerns: `workspace.dsl` defines `model` and `views`, while `theme.dslf` defines `styles`. It is also easier to swap themes because you only need to amend the `!include` line in `workspace.dsl`.
 
 ## Wrapup
 
