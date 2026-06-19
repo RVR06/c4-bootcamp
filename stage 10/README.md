@@ -32,7 +32,7 @@ Luckily, there is an amazing project - aka [Simple Icons](https://simpleicons.or
 Sadly, `Structurizr` only deals with `.png` or `.jpg` for icons. Broadly used icons has been converted [here](https://github.com/rvr06/cornifer-contrib) and more are coming.
 
 ✏️ Create a brand-new `theme-deploy.dslf`.  
-✏️ Create some styles for tags like `#android`, `#opera`, `#windows`, ... using `https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/__XXX__` path
+✏️ Create some styles for tags like `#android`, `#opera`, `#windows`, ... using `https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/path/to/icon` path
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
 
@@ -42,12 +42,12 @@ Sadly, `Structurizr` only deals with `.png` or `.jpg` for icons. Broadly used ic
 +		element "#android" {
 +			stroke #3DDC84
 +			color #3DDC84
-+			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/android.png"
++			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/icons/android-color.png"
 +		}
 +		element "#opera" {
 +			stroke #FF1B2D
 +			color #FF1B2D
-+			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/opera.png"
++			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/icons/opera-color.png"
 +		}
 +		element "#daedalus" {
 +			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/daedalus.png"

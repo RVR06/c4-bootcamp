@@ -41,7 +41,7 @@ views {
 +		element "#android" {
 +			stroke #3DDC84
 +			color #3DDC84
-+			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/android.png"
++			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/icons/android-color.png"
 +		}
 +		
 +		element "#opera" {
