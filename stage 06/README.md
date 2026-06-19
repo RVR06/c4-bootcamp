@@ -105,5 +105,5 @@ Until now we capture the static aspect of our `software model`, let's see how we
 
 ## Further reading
 
-- [component](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#component)
-- [component view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#component-view)
+- [component](https://docs.structurizr.com/dsl/language#component)
+- [component view](https://docs.structurizr.com/dsl/language#component-view)

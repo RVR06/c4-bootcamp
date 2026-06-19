@@ -1,7 +1,7 @@
 # © 2022 DAEDALUS, Inc.  Unauthorized use, distribution, or duplication is prohibited.
 
-!constant FRONTEND "Focus on frontend"
-!constant BACKEND "Focus on backend"
+!const FRONTEND "Focus on frontend"
+!const BACKEND "Focus on backend"
 
 workspace "MILA" "Multiple Images Lightweight Acquisition" {
 	!identifiers hierarchical

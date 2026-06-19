@@ -143,7 +143,7 @@ workspace "MILA" "Multiple Images Lightweight Acquisition" {
 	
 	views {
 		# theme https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/semantic-alt/theme.json
-		theme https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/heraldry/theme.json
+		theme https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/heraldry2/theme.json
 		theme https://static.structurizr.com/themes/microsoft-azure-2021.01.26/theme.json
 		theme https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/shape/theme.json
 		
@@ -151,13 +151,13 @@ workspace "MILA" "Multiple Images Lightweight Acquisition" {
 			element "#android" {
 				stroke #3DDC84
 				color #3DDC84
-				icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/android.png"
+				icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/icons/android-color.png"
 			}
 			
 			element "#opera" {
 				stroke #FF1B2D
 				color #FF1B2D
-				icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/opera.png"
+				icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/icons/opera-color.png"
 			}
 			
 			# element "Container Instance" {

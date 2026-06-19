@@ -1,7 +1,7 @@
 # © 2022 DAEDALUS, Inc.  Unauthorized use, distribution, or duplication is prohibited.
 
-!constant FRONTEND "Focus on frontend"
-!constant BACKEND "Focus on backend"
+!const FRONTEND "Focus on frontend"
+!const BACKEND "Focus on backend"
 
 workspace "MILA" "Multiple Images Lightweight Acquisition" {
 	!identifiers hierarchical
@@ -15,12 +15,12 @@ workspace "MILA" "Multiple Images Lightweight Acquisition" {
 		mila = softwareSystem "MILA" "Provides lightweight material acquisition facilities & crafts self-contained material assets." "" {
 			url https://github.com/rvr06/c4-bootcamp/blob/main/stage%2000/specs.md
 			
-			spa = container "Web application" "Provides limited facilities to upload constrained pictures set." "Blazor" "#web" {
+			spa = container "Web application" "Provides limited facilities to upload constrained pictures set." "Blazor" "#web, #blazor" {
 				perspectives {
 					frontend "${FRONTEND}"
 				}
 			}
-			mobile = container "Mobile application" "Provides uncluttered interface to ease pictures shooting, stiching & uploading." "Xamarin" "#mobile" {
+			mobile = container "Mobile application" "Provides uncluttered interface to ease pictures shooting, stiching & uploading." "Xamarin" "#mobile, #xamarin" {
 				perspectives {
 					frontend "${FRONTEND}"
 				}
@@ -31,18 +31,18 @@ workspace "MILA" "Multiple Images Lightweight Acquisition" {
 				uploading = component "Uploading" "Handles back-end communication." "C#" "" {
 				}
 			}
-			api = container "API application" "Extracts spatially varying BRDF-Cook-Torrance with normals, diffuse, roughness & specular maps from pictures set leveraring deep neural network." "" "" {
+			api = container "API application" "Extracts spatially varying BRDF-Cook-Torrance with normals, diffuse, roughness & specular maps from pictures set leveraring deep neural network." "" "#dotnet" {
 				perspectives {
 					backend "${BACKEND}"
 				}
 			}
-			store = container "Materials store" "Stores enriched materials & supplies powerful queries API." "MongoDB" "#db" {
+			store = container "Materials store" "Stores enriched materials & supplies powerful queries API." "MongoDB" "#db, #mongodb" {
 				perspectives {
 					backend "${BACKEND}"
 				}
 			}
 		}
-		icarus = softwareSystem "Icarus" "Provides powerful facilities to work with physics materials." "#external" {
+		icarus = softwareSystem "Icarus" "Provides powerful facilities to work with physics materials." "#external, #icarus" {
 		}
 		
 		matt -> mila "sends pictures to" "" ""
@@ -157,7 +157,26 @@ workspace "MILA" "Multiple Images Lightweight Acquisition" {
 	}
 	
 	views {
-		theme https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/semantic-alt/theme.json
+		theme https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/topology/theme.json
+		theme https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/themes/heraldry2/theme.json
+		
+		styles {
+			element "#blazor" {
+				stroke #512BD4
+				icon blazor-color.png
+			}
+			element "#xamarin" {
+				stroke #3498DB
+				icon xamarin.png
+			}
+			element "Person" {
+				stroke #834187
+			}
+			element "#icarus" {
+				stroke #F73718
+				icon icarus.png
+			}
+		}
 		
 		# C4.L
 		systemLandscape "SystemLandscape" "" {
@@ -181,7 +200,6 @@ workspace "MILA" "Multiple Images Lightweight Acquisition" {
 				mila.store
 				icarus
 			}
-			autolayout
 		}
 		
 		filtered "Container" exclude "#web" "Container-mobile-filter" ""

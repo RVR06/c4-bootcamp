@@ -3,7 +3,7 @@ workspace extends core/workspace.dsl {
 	!impliedRelationships false
 	
 	model {
-		!ref mila.mobile {
+		!element mila.mobile {
 			acquisition = component "Acquisition" "Handles smartphone built-in capabilities." "C#" "" {
 			}
 			preparation = component "Preparation" "Provides images tooling such as cropping & stitching facilities." "C#" "" {
@@ -15,7 +15,7 @@ workspace extends core/workspace.dsl {
 			preparation -> uploading "Packages" "" ""
 		}
 		
-		!ref mila {
+		!element mila {
 			maui = container "Mobile application (revamped)" "Provides uncluttered interface to ease pictures shooting, stiching & uploading." "MAUI" "#mobile, #newcomer" {
 				url https://dotnet.microsoft.com/en-us/apps/maui
 			}
@@ -23,7 +23,7 @@ workspace extends core/workspace.dsl {
 			maui -> mila.api "makes API call to" "" ""
 		}
 		
-		!ref matt {
+		!element matt {
 			-> mila.maui "uses" "" ""
 		}
 	}

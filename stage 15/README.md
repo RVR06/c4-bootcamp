@@ -52,8 +52,8 @@ Every `view` involving grouped `containers` has been updated to reflect grouping
 
 Especially useful when `software model` is becoming complex (like micro-services architecture) or to highlight elements operating jointly, `group` allows to tidy up `model` section, while supporting layout engine and easing visual identification.  
 
-`Software model` is likely to operate in bigger ecosystem and you may wonder how one could avoid ending up with a monolith `workspace`. [Next stage](../stage%2016/README.md) introduces a way to face such a situation.
+`Software model` is likely to operate in bigger ecosystem and you may wonder how you can avoid ending up with a monolith `workspace`. [Next stage](../stage%2016/README.md) introduces a way to face such a situation.
 
 ## Further reading
 
-- [group](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#group)
+- [group](https://docs.structurizr.com/dsl/language#group)

@@ -79,7 +79,7 @@ Every single decision may have impact on the project, on the team, on your daily
 
 ## Hands-on, the C4 journey
 
-Find below the hypothetic ADR subset relative to C4 one could end up with on a given project. 
+Find below the hypothetic ADR subset relative to C4 you can end up with on a given project. 
 
 {{% cardpane %}}
 

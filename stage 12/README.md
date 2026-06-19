@@ -57,7 +57,7 @@ mila = softwareSystem "MILA" "Provides [...]" "" {
 
 ![](structurizr-1-Container-full.svg)
 
-Remember, as part of the code base, `software model` should obey same rules. **D**on't **R**epeat **Y**ourself is a well-known software pattern. Here, we duplicate `"Frontend"` and `"Backend"` twice, and it is not very sustainable. We could have more complex label, such as `"Focus on frontend relative blocks"` instead of `"Frontend"`. Anyway, if we decide to change at some point the label, we need to make many updates and it is error prone. We are used to leverage `constant` to tackle this kind of issue in our code base, and it is exactly how the `DSL` works.
+Remember, as part of the code base, your `software model` should obey the same rules. **D**on't **R**epeat **Y**ourself is a well-known software pattern. Here, you duplicate `"Frontend"` and `"Backend"` twice, and that is not very sustainable. You could use a more specific label, such as `"Focus on frontend relative blocks"` instead of `"Frontend"`. In any case, if you decide to change the label later, you would need to make many updates, and that is error-prone. In software projects, we usually leverage `constant` to tackle this kind of issue, and the `DSL` works the same way.
 
 ```c4u
 # Declare a constant
@@ -97,5 +97,5 @@ Let's have a look on other features in the [next stage](../stage%2013/README.md)
 
 ## Further reading
 
-- [!constants](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#constants)
-- [perspectives](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#perspectives)
+- [!constants](https://docs.structurizr.com/dsl/language#constants)
+- [perspectives](https://docs.structurizr.com/dsl/language#perspectives)

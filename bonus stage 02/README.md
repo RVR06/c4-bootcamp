@@ -14,7 +14,7 @@ Assume we start from a meaningful [workspace](./source.dsl).
 
 ## Semantic view
 
-Thanks to [stage 10](../stage%2010/README.md), we know how one can easily reference existing theme to support diagramming.
+Thanks to [stage 10](../stage%2010/README.md), you now know how to easily reference an existing theme to support diagramming.
 
 ```diff
 views {
@@ -41,7 +41,7 @@ views {
 +		element "#android" {
 +			stroke #3DDC84
 +			color #3DDC84
-+			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/android.png"
++			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/icons/android-color.png"
 +		}
 +		
 +		element "#opera" {
@@ -94,7 +94,7 @@ There are many remaining dimensions which could be helpful to visualize, such as
 * identifying elements governance (enterprise vs customer)
 * ...  
 
-Of course, we could leverage `perspective` to do so, but having their own `theme` (and resulting tailored views) will be very helpful for those extra dimensions. `Structurizr` would definitively benefit scaling its approach on that matter...
+Of course, you could leverage `perspective` to do so, but having dedicated `theme` files (and resulting tailored views) is very helpful for those extra dimensions. `Structurizr` would definitely benefit from scaling its approach on that matter...
 
 ## Prerequisites view
 
@@ -202,9 +202,9 @@ As expected, `url` is available through pop-up (in magenta) and navigable by dou
 
 📘 Completing this stage should lead to this [final workspace](./workspace.dsl).  
 
-You see how one could leverage fields like `description` or `url`, or play with `themes` to tailor outcome. UX through `Structurizr` is not as smooth as expected, but those ideas could lead to interesting evolution.
+You see how you can leverage fields like `description` or `url`, or play with `themes` to tailor outcome. UX through `Structurizr` is not as smooth as expected, but those ideas could lead to interesting evolution.
 
 ## Further reading
 
-- [theme](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#theme)
-- [url](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#url)
+- [theme](https://docs.structurizr.com/dsl/language#theme)
+- [url](https://docs.structurizr.com/dsl/language#url)

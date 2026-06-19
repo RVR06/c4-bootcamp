@@ -86,7 +86,7 @@ views {
 ```
 </details><br> 
 
-✏️ To avoid ending up with default, one can amend `theming` to take into account new players:
+✏️ To avoid ending up with defaults, you can amend `theming` to take new elements into account:
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
 
@@ -123,11 +123,11 @@ Notice how `tags` once again allow us to slightly change the display, speeding u
 
 Coming from `System Context` diagram, imagine you deep dived within the `MILA` blue box. A system is composed by container(s) - think executable granularity such as desktop app, web app, backend, database...
 - A dashed bounding box stresses parent `software system` boundary.
-- Involved `person` & external `software system` are still presents and help us to refine which internal parts are coupled. One could notice that `API` application is totally agnostic of `MILA` system I/O.
+- Involved `person` and external `software systems` are still present and help us refine which internal parts are coupled. You can notice that the `API` application is totally agnostic of `MILA` system I/O.
 - Two entry points with asymmetric facilities & different form factors to interact with our application from an end-user perspective...
 - … both leveraging - through gRPC - a back-end service for post-processing...
 - … which in turn persists enriched data into some storage area.
-- Starting from container cardinality & heterogeneity, we are able to sketch how one could deploy the application, organize both source code control & backlog, and tailor team(s) accordingly. 
+- Starting from container cardinality & heterogeneity, we are able to sketch how you can deploy the application, organize both source code control & backlog, and tailor team(s) accordingly. 
 
 ## Wrapup
 
@@ -139,6 +139,6 @@ Let's see how to replicate this approach in [next stage](../stage%2006/README.md
 
 ## Further reading
 
-- [container](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#container)
-- [technology](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#technology)
-- [container view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#container-view)
+- [container](https://docs.structurizr.com/dsl/language#container)
+- [technology](https://docs.structurizr.com/dsl/language#technology)
+- [container view](https://docs.structurizr.com/dsl/language#container-view)

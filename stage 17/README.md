@@ -22,7 +22,7 @@ We'll cover both scenarios in this stage.
 
 All scenarios share the same entry point, namely creating a brand-new `workspace` that _extends_ an existing one.
 
-✏️ Create a new `workspace` which extends the [existing one](./core/workspace.dsl), located in the `core` folder. Note that you can also provide an `url` to extend an online `workspace`. Feel free to look at [language reference](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#workspace) for details.
+✏️ Create a new `workspace` which extends the [existing one](./core/workspace.dsl), located in the `core` folder. Note that you can also provide an `url` to extend an online `workspace`. Feel free to look at [language reference](https://docs.structurizr.com/dsl/language#workspace) for details.
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
 
@@ -109,7 +109,7 @@ Assume now the new team want to spike a `Xamarin` to `MAUI` migration, but do no
 
 [MAUI](https://dotnet.microsoft.com/en-us/apps/maui) stands for **.NET Multi-platform App UI**. It is the new Microsoft framework to build native, cross-platform desktop and mobile apps all in one.
 
-See how one could proceed to do so.
+See how you can proceed to do so.
 
 ✏️ Add a new `container` to `MILA` `software system` to materialize the new application.
 
@@ -118,7 +118,7 @@ See how one could proceed to do so.
 ```diff
 model {
 +	!ref mila {
-+		maui = container "Mobile application (revamped)" "Provides uncluttered interface to ease pictures shooting, stiching & uploading." "MAUI" "#mobile" {
++		maui = container "Mobile application (revamped)" "Provides uncluttered interface to ease pictures shooting, stitching & uploading." "MAUI" "#mobile" {
 +			url https://dotnet.microsoft.com/en-us/apps/maui
 +		}		
 +	}
@@ -134,7 +134,7 @@ model {
 ```diff
 model {
 	!ref mila {
-		maui = container "Mobile application (revamped)" "Provides uncluttered interface to ease pictures shooting, stiching & uploading." "MAUI" "#mobile" {
+		maui = container "Mobile application (revamped)" "Provides uncluttered interface to ease pictures shooting, stitching & uploading." "MAUI" "#mobile" {
 			url https://dotnet.microsoft.com/en-us/apps/maui
 		}
 		
@@ -172,8 +172,8 @@ views {
 ```diff
 model {
 	!ref mila {
--		maui = container "Mobile application (revamped)" "Provides uncluttered interface to ease pictures shooting, stiching & uploading." "MAUI" "#mobile" {
-+		maui = container "Mobile application (revamped)" "Provides uncluttered interface to ease pictures shooting, stiching & uploading." "MAUI" "#mobile, #newcomer" {
+-		maui = container "Mobile application (revamped)" "Provides uncluttered interface to ease pictures shooting, stitching & uploading." "MAUI" "#mobile" {
++		maui = container "Mobile application (revamped)" "Provides uncluttered interface to ease pictures shooting, stitching & uploading." "MAUI" "#mobile, #newcomer" {
 			url https://dotnet.microsoft.com/en-us/apps/maui
 		}
 	}
@@ -201,8 +201,8 @@ You should end up with the final diagram:
 📘 Completing this stage should lead to this [final workspace](./workspace.dsl).  
 
 As for code, there are so many flavors on how things could or should be organized, that it is difficult to provide clear guidance. This said, seasoned folks commonly end up with:
-- Start smarlty, ie know your toolchain, what can be done and what can't, and start with a proper default. Remember, code first approach is all about dealing with plain old files, so at the very end, you can easily undo or redo. But don't get me wrong. Don't make crazy choices. 
-- Scale gently, ie do not introduce extra complexity if it isn't worth it. We could have split `workpace` a couple of stages ago. We also could live with a monolith `workspace` for a while longer. It's up to the team(s) to decide how to sequence and schedule operations.
+- Start smartly, ie know your toolchain, what can be done and what can't, and start with a proper default. Remember, code first approach is all about dealing with plain old files, so at the very end, you can easily undo or redo. But don't get me wrong. Don't make crazy choices. 
+- Scale gently, ie do not introduce extra complexity if it isn't worth it. You could have split `workspace` a couple of stages ago. You could also live with a monolith `workspace` for a while longer. It's up to the team(s) to decide how to sequence and schedule operations.
 
 Whatever the decision you make, consider your toolchain as first class citizen and write down matching `Architecture Decision Record` accordingly.  
 
@@ -211,5 +211,5 @@ Document as well the technology stack changes by filling up dedicated `ADR` and 
 
 ## Further reading
 
-- [extends](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#workspace)
-- [!ref](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#ref)
+- [extends](https://docs.structurizr.com/dsl/language#workspace)
+- [!ref](https://docs.structurizr.com/dsl/language#ref)

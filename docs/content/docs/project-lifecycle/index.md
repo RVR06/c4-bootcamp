@@ -19,7 +19,7 @@ C4 complementary stages: Landscape, Workflow & Deployment.
 
 ![](c4-lwd.svg)
 
-Starting from this, see how one could effectively achieve different missions within a project.
+Starting from this, see how you can effectively achieve different missions within a project.
 
 ## I need to shape a solution
 

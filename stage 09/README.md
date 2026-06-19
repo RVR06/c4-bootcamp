@@ -74,7 +74,7 @@ views {
 </details><br> 
 
 ✏️ Amend some points:
-- As we do have 2 personas, we have to materiliaze 2 user workstations, one hosting `MILA`, the other hosting `Icarus`.
+- As we do have 2 personas, we have to materialize 2 user workstations, one hosting `MILA`, the other hosting `Icarus`.
 - Obviously, `virtual device` is replaced by `mobile device`
 - Kubernetes being the de-facto standard for remote orchestration, we swap previous `docker-compose` layer. 
 
@@ -133,7 +133,7 @@ Resulting view materializes this configuration:
 
 ## Introduce redundancy
 
-Imagine we do foresee high traffic to cope with. We could introduce a new backend stack to make sure we can handle it.
+Imagine you foresee high traffic. You could introduce a new backend stack to make sure you can handle it.
 
 ✏️ Duplicate the `Backend` content by introducing 2 new root `deploymentNode`.
 
@@ -229,7 +229,7 @@ prod_ = deploymentEnvironment "prod" {
 
 ![](structurizr-1-ProdDeployment-group-missing-relationships.svg)
 
-Relationships are no more tangled, because they simply disapear... 
+Relationships are no more tangled, because they simply disappear... 
 
 ✏️ Fix that by spreading over `deploymentGroup` information among other `container instance` & `software system instance`. 
 
@@ -366,7 +366,7 @@ prod_ = deploymentEnvironment "prod" {
 
 ✏️ Improve rendering by introducing new style for `infrastructure node`. 
 
-Eg, picking new color schema to align with `Cornifer` one strenghtens consistency.
+Eg, picking new color schema to align with `Cornifer` one strengthens consistency.
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
 
@@ -385,7 +385,7 @@ views {
 
 ![](structurizr-1-ProdDeployment-colored-style.svg)
 
-It is still difficult to discriminate for layman. Luckily, there are plenty of [traits](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#element-style) one can modify to strengthen visual identity. 
+It is still difficult for laypeople to distinguish elements quickly. Luckily, there are plenty of [traits](https://docs.structurizr.com/dsl/language#element-style) you can modify to strengthen visual identity.
 
 ✏️ What about changing `shape` & `height` as well to explicit?
 
@@ -412,7 +412,7 @@ Better, isn't it?
 
 ## Enrich with health check
 
-`Health check` is a widespread facility in Cloud environment. It allows an administrator or service to ping a dedicated URL to assess the health of an endpoint. Having an easy way of visualizing all ecosystem health at once is very useful when one would like to monitor or diagnose issue. 
+`Health check` is a widespread facility in cloud environments. It allows an administrator or service to ping a dedicated URL and assess the health of an endpoint. Having an easy way to visualize ecosystem health at once is very useful when you need to monitor or diagnose issues.
  
 ✏️ Pick a `software system instance` or a `container instance` you would like to enrich, start typing `healthCheck`.
 
@@ -432,7 +432,7 @@ Assuming you have properly [instrumented](https://docs.microsoft.com/en-us/aspne
 deploymentNode "Orchestration" "" "Docker-compose" "#dockerCompose" 1 {
     deploymentNode "mcr.microsoft.com/dotnet/aspnet:6.0" "" "Docker" "#docker" 1 {
         api_ = containerInstance mila.api "" "" {
-+           healthCheck "API is up & running" "http://localhost:5000/healthz" 60 0
++           healthCheck "API is up and running" "http://localhost:5000/healthz" 60 0
         }
     }
 ```
@@ -513,8 +513,8 @@ Whether you leverage autolayout or you tailor a custom one, ensure you keep [con
 
 ## Further reading
 
-- [deployment group](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#deploymentGroup)
-- [infrastructure node](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#infrastructurenode)
-- [health check](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#healthcheck)
+- [deployment group](https://docs.structurizr.com/dsl/language#deploymentGroup)
+- [infrastructure node](https://docs.structurizr.com/dsl/language#infrastructurenode)
+- [health check](https://docs.structurizr.com/dsl/language#healthcheck)
 
-[^1]: `Health check` is a widespread facility in Cloud environment. It allows an administrator or service to ping a dedicated URL to assess the health of an endpoint. Having an easy way of visualizing all ecosystem health at once is very useful when one would like to monitor or diagnose issue. 
+[^1]: `Health check` is a widespread facility in cloud environments. It allows an administrator or service to ping a dedicated URL and assess the health of an endpoint. Having an easy way to visualize ecosystem health at once is very useful when you need to monitor or diagnose issues.

@@ -7,16 +7,16 @@ date: '2021-11-03'
 author: Romain Vasseur
 ---
 
-Main challenge of diagramming is to convey multi-dimensional message to heterogeneous audience. Find below some conventions, one could leverage to empower the vision he would like to convey while minimizing mental workload.
+The main challenge of diagramming is conveying a multi-dimensional message to a heterogeneous audience. Below are some conventions you can leverage to express the vision you want to convey while minimizing mental workload.
 
 ## Self-contained
 
-There are some aspects that are not straightforward to achieve when speaking about diagramming. A famous one, common to all documentation materials, is the ability to keep content up to date. Another core one is the ability for a content to be effectively processed without support of a speaker or 100 pages manual. One diagram should clearly expose aspect(s) of an architecture in an autonomous fashion.
+There are some aspects that are not straightforward to achieve when speaking about diagramming. A famous one, common to all documentation materials, is the ability to keep content up-to-date. Another core one is the ability for a content to be effectively processed without support of a speaker or 100 pages manual. One diagram should clearly expose aspect(s) of an architecture in an autonomous fashion.
 Let's list below some points you should pay attention at to achieve this
 
 ### Taxonomy
 
-Properly name thing is an important part of every design. Because one could never foresee knowledge and skills of the audience, one should prevent himself to leverage acronyms and prefer meaningful word to name the things.
+Properly name thing is an important part of every design. Because you can never foresee knowledge and skills of the audience, one should prevent himself to leverage acronyms and prefer meaningful word to name the things.
 
 Remember that your diagramming has to be self-explanatory without the need of a speaker to explain every ambiguous wording that may pop-up.
 
@@ -49,7 +49,7 @@ There is no universal answer - and for sure it is not 42 - and YMMV but a good g
 ### Color
 
 Color is a powerful vector to visually identify and cluster stuff. Eg, we are used to pick green for forest and blue for sea when we color a map, whatever our culture, our country, ...
-​​​​​​​Same should apply for diagramming. Color should be used to support semantic. Sticking to C4 model, one could end up with the following schema.
+​​​​​​​Same should apply for diagramming. Color should be used to support semantic. Sticking to C4 model, you can end up with the following schema.
 
 ||||
 |-|-|-|

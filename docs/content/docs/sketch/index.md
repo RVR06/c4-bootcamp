@@ -84,19 +84,19 @@ This said, some challenges still remain. And they could become painful...
 ## Remaining challenges
 
 Sketch-first approach is a sustainable one, but it also comes with some limitations that deserve some highlight.
-One could overcome some of those with some discipline and time, but some others could become hard to live with.
+You can overcome some of those with discipline and time, but some others can become hard to live with.
 
 |||
 |-|-|
 | Better sustainability but... | Of course, we improve a lot on this field compared to whiteboard snapshotting. Your model is defined through a software that eases daily management. But it is still uncoupled from source code or technical documentation. You need to leverage export that can be difficult to automate and whose staples are images which does not friendly play with source control (versioning, diff., ...). Status is better but far from ideal. |
 | Better resilient to changes but...| It is now far easier to handle CRUD operation. But we still need to live with heavy manual operation that cannot be automated, such as renaming (item must be renamed as many times as existing diagrams it belongs to) and it increases a lot the probability to introduce inconsistency at some point in the model, due to human error. Inconsistent, inaccurate and outdated pieces even if small can spoil the entire model trust, and thus ruin all our effort. |
 | Eye-candy but... | One of the benefit of switching to software to support the diagramming is undoubtedly the prettiness of the outcome. It looks clean and professional whatever our drawing skills. Most of the software accommodates very well zooming (within software, and during export with vector alike format). But that leads to the next aspect, namely display obsession. |
-| Display obsession | Because we are interacting by drag & dropping and connecting shapes, one could be tempted to spend a lot of time to align, sort, resize, tidy up, ... Although this activity participates to increase the overall quality, it is a satellite one and should be handled this way. You are there to tailor software, not to layout to match mood of the day. |
+| Display obsession | Because we are interacting by drag & dropping and connecting shapes, you can be tempted to spend a lot of time to align, sort, resize, tidy up, ... Although this activity participates to increase the overall quality, it is a satellite one and should be handled this way. You are there to tailor software, not to layout to match mood of the day. |
 | Soft control | Applying C4 model and sticking to convention cannot be enforced by diagramming software. Nothing but team review will prevent you to introduce failure. There is no compilation warning, no strongly-typed language, no syntax highlighter or analyzer... It is like coding within Notepad instead of a dedicated IDE. You can manage to succeed but are doomed to collapse someday...|
 | Maintenance | As we do not manage to unify source code, documentation and diagramming (yet), maintenance phase is still blurry. How do we enforce consistency? What is the review workflow (no Pull Request available)? |
 
 ## Closing
 
 This post highlights benefits and drawbacks of leveraging sketches to build and convey software architecture.
-We saw that picking this choice does not confine us to plain old whiteboard and how one could overcome most of those limitations leveraging methods and tools. This said, remaining drawbacks are difficult to deal with if we stay on this shore. 
+We saw that picking this choice does not confine us to plain old whiteboard and how you can overcome most of those limitations leveraging methods and tools. This said, remaining drawbacks are difficult to deal with if we stay on this shore. 
 Check out the next [Architecture as Code]({{% relref "/docs/code" %}}) stage to balance what we learned here, and discover a brand-new way of crafting a model.

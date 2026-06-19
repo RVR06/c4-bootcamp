@@ -144,11 +144,11 @@ views {
 
 📘 Completing this stage should lead to this [final workspace](./workspace.dsl).  
 
-The idea behind code-first approach is to craft a rich `software model` and to provide multiple views - or viewpoints - to support decision making. That is what `animation` or `dynamic` bring: other viewpoints. Remember, you are unlikely to be able to provision a dedicated speaker every time you need to read/think about a `software model`. Make everything you can to ensure your `software model` is self-contained and self-explainatory.
+The idea behind code-first approach is to craft a rich `software model` and to provide multiple views - or viewpoints - to support decision making. That is what `animation` or `dynamic` bring: other viewpoints. Remember, you are unlikely to be able to provision a dedicated speaker every time you need to read/think about a `software model`. Make everything you can to ensure your `software model` is self-contained and self-explanatory.
 
 Another dimension that deserves a dedicated stage is the deployment one. [Here](../stage%2008/README.md) we go.
 
 ## Further reading
 
-- [animation view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#animation)
-- [dynamic view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#dynamic-view)
+- [animation view](https://docs.structurizr.com/dsl/language#animation)
+- [dynamic view](https://docs.structurizr.com/dsl/language#dynamic-view)

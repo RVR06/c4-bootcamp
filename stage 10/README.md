@@ -11,7 +11,7 @@ In this module, you will learn how to:
 
 ## Enrich theme
 
-Remember the `styles` syntax. Exhaustive option can be found [here](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#element-style) and [there](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#relationship-style), but common ones used for `deployment` views are:
+Remember the `styles` syntax. Exhaustive option can be found [here](https://docs.structurizr.com/dsl/language#element-style) and [there](https://docs.structurizr.com/dsl/language#relationship-style), but common ones used for `deployment` views are:
 
 ```c4u
 element "#tag" {
@@ -32,7 +32,7 @@ Luckily, there is an amazing project - aka [Simple Icons](https://simpleicons.or
 Sadly, `Structurizr` only deals with `.png` or `.jpg` for icons. Broadly used icons has been converted [here](https://github.com/rvr06/cornifer-contrib) and more are coming.
 
 ✏️ Create a brand-new `theme-deploy.dslf`.  
-✏️ Create some styles for tags like `#android`, `#opera`, `#windows`, ... using `https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/__XXX__` path
+✏️ Create some styles for tags like `#android`, `#opera`, `#windows`, ... using `https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/path/to/icon` path
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
 
@@ -42,12 +42,12 @@ Sadly, `Structurizr` only deals with `.png` or `.jpg` for icons. Broadly used ic
 +		element "#android" {
 +			stroke #3DDC84
 +			color #3DDC84
-+			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/android.png"
++			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/icons/android-color.png"
 +		}
 +		element "#opera" {
 +			stroke #FF1B2D
 +			color #FF1B2D
-+			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/opera.png"
++			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/icons/opera-color.png"
 +		}
 +		element "#daedalus" {
 +			icon "https://raw.githubusercontent.com/rvr06/cornifer-contrib/main/assets/daedalus.png"
@@ -97,7 +97,7 @@ views {
 
 ![](structurizr-1-DevDeployment.png)
 
-One could also leverage some existing [themes](https://structurizr.com/help/themes), by using `theme` keyword:
+You can also leverage some existing [themes](https://structurizr.com/help/themes), by using the `theme` keyword:
 
 ```diff
 +views {
@@ -164,11 +164,11 @@ Logo has been automatically added within title area (bottom-left corner):
 
 📘 Completing this stage should lead to this [final workspace](./workspace.dsl).  
 
-You see how one could enhance views by enriching `theme`. Themes can be shared and should be reused to enforce consistency.  
+You see how you can enhance views by enriching `theme`. Themes can be shared and should be reused to enforce consistency.  
 
 [Next stage](../stage%2011/README.md) will introduce another useful feature.
 
 ## Further reading
 
-- [branding](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#branding)
-- [theme](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#theme)
+- [branding](https://docs.structurizr.com/dsl/language#branding)
+- [theme](https://docs.structurizr.com/dsl/language#theme)

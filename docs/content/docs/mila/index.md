@@ -7,7 +7,7 @@ date: '2021-11-04'
 author: Romain Vasseur
 ---
 
-For this session we will use an hypothetical use case, namely __Turning one or multiple pictures into a rendering material for Labyrinth__, to see how one could potentially craft the implementation sticking to `C4 model`. Codename of the project is `MILA` standing for `Multiple Images Lightweight Acquisition`. Let's unfold the 4 stages and analyze what you should pay attention to, to tailor the best experience for your audience. 
+For this session we will use a hypothetical use case, namely __Turning one or multiple pictures into a rendering material for Labyrinth__, to see how you can potentially craft the implementation sticking to `C4 model`. Codename of the project is `MILA` standing for `Multiple Images Lightweight Acquisition`. Let's unfold the 4 stages and analyze what you should pay attention to, to tailor the best experience for your audience. 
 
 ## C4.1 Context
 
@@ -19,7 +19,7 @@ One should be able to easily grasp interactions with both user(s) & external sys
 - `MILA` is the `software system` we are focusing on. We provide a high level description enabling a layman to quickly jump in.
 - A single identified `Persona`. As their title - material scientist - highlights, we are talking about a seasoned user. We capture in the description how they will interact with our application.  
 - We materialize coupling with external `software system`, here `Icarus`. You may notice that we do not provide neither generic description nor exhaustive listing of facilities. We pick those which are contextually meaningful. 
-- We use one-way technology agnostic arrows for `relationships` with straightforward intent. Prefer plain old English sentence starting with a verb. One can then fluently read the diagram, prefixing & suffixing the sentence accordingly e.g. `Material scientist` sends pictures to `MILA` or `Icarus` fetches materials from `MILA`. At this stage, it seems useless to give more insights especially regarding technology stack.
+- We use one-way, technology-agnostic arrows for `relationships` with straightforward intent. Prefer plain old English sentence starting with a verb. One can then fluently read the diagram, prefixing & suffixing the sentence accordingly e.g. `Material scientist` sends pictures to `MILA` or `Icarus` fetches materials from `MILA`. At this stage, it seems useless to give more insights especially regarding technology stack.
 
 ## C4.2 Container
 
@@ -29,11 +29,11 @@ Coming from the `Context` diagram, imagine you zoomed in on the `MILA` blue box.
 
 A system is composed by container(s) - think executable granularity such as desktop app, web app, backend, database...
 - A dashed bounding box stresses parent `software system` boundary.
-- Involved `person` & external `software system` are still presents and help us to refine which internal parts are coupled. One could notice that `API` application is totally agnostic of `MILA` system I/O.
+- Involved `person` and external `software systems` are still present and help us refine which internal parts are coupled. You can notice that the `API` application is totally agnostic of `MILA` system I/O.
 - Two entry points with asymmetric facilities & different form factors to interact with our application from an end-user perspective...
 - … both leveraging - through gRPC - a back-end service for post-processing...
 - … which in turn persists enriched data into some storage area.
-- Starting from container cardinality & heterogeneity, we are able to sketch how one could deploy the application, organize both source code control & backlog, and tailor team(s) accordingly. 
+- Starting from container cardinality & heterogeneity, we are able to sketch how you can deploy the application, organize both source code control & backlog, and tailor team(s) accordingly. 
 
 ## C4.3 Component
 

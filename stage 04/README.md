@@ -15,7 +15,7 @@ In this module, you will learn how to:
 
 ## Comment
 
-As part of the code base, `software model` obeys same rule, namely _all can be enforced by the underlying language - here DSL - has to be_. If we need more, don't be afraid to fallback to plain old comment `#`. As workspace now lands in our repository, one obvious one is to add `copyright` information.
+As part of the code base, your `software model` obeys the same rule, namely _all that can be enforced by the underlying language - here DSL - has to be_. If you need more, don't hesitate to fall back to a plain old `#` comment. Since the workspace now lives in your repository, one obvious addition is `copyright` information.
 
 ✏️ Add `copyright` information.
 
@@ -30,7 +30,7 @@ workspace "MILA" "Multiple Images Lightweight Acquisition" {
 
 ## Tag & theme
 
-One may have noticed there is some asymetry on the `software model` we are shaping that could be better materiliazed, namely the fact that it involves 2 different `software systems` that does not play the same role: `MILA` is the main one, `Icarus` is a satellite one. It could be obvious for folks regularly involved in the project, but remember that audience is heterogenous and making stuff explicit does not harm. Let's see how one could improve this by introducing a new dimension to our `software model` via `tag`.
+You may have noticed there is some asymmetry in the `software model` we are shaping that could be better materialized, namely the fact that it involves 2 different `software systems` that do not play the same role: `MILA` is the main one, while `Icarus` is a satellite system. This may be obvious for people regularly involved in the project, but remember that the audience is heterogeneous, and making things explicit does no harm. Let's see how to improve this by introducing a new dimension to our `software model` via `tag`.
 
 ✏️ Fill the `tag` field of `Icarus` `software system`.
 
@@ -143,7 +143,7 @@ cornifer = softwareSystem "Cornifer" "" "" {
 	url https://github.com/rvr06/c4-bootcamp/
 }
 ```
-Whatever the one you pick, enriching your model is important as it allows `.dsl` reader to quickly access meaninfgul information, making your `software model` acting as an information hub.
+Whatever you choose, enriching your model is important because it allows `.dsl` readers to quickly access meaningful information, turning your `software model` into an information hub.
 
 ## Wrapup
 
@@ -155,7 +155,7 @@ What about digging in a bit deeper in the [next stage](../stage%2005/README.md)?
 
 ## Further reading
 
-- [comment](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#comments) 
-- [tag](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#tags)
-- [theme](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#theme)
-- [url](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#url)
+- [comment](https://docs.structurizr.com/dsl/language#comments) 
+- [tag](https://docs.structurizr.com/dsl/language#tags)
+- [theme](https://docs.structurizr.com/dsl/language#theme)
+- [url](https://docs.structurizr.com/dsl/language#url)

@@ -4,12 +4,12 @@
 ![](https://img.shields.io/badge/c4-!impliedRelationships-c49060)  
 
 In this module, you will:
-- Undersand how `identifiers` work
-- Undersand how `relationships` work
+- Understand how `identifiers` work
+- Understand how `relationships` work
 
 ⌛ Estimated time to complete: 10 min
 
-## Undersand how identifiers work
+## Understand how identifiers work
 
 Provide identity to `software model` elements is necessary to reference them eg within `relationship` or `views`. It is used to stick to `!identifiers hierarchical`, but for very simple use case. Of course, you need to provide full lineage when you reference an element, which seems counter productive:
 
@@ -38,7 +38,7 @@ workspace {
 }
 ```
 
-One could argue you could workaround this way:
+You could argue that you can work around this in the following way:
 
 ```diff
 workspace {
@@ -87,6 +87,6 @@ We took time to craft a `software model`. Let's see how we can [share it](../sta
 
 ## Further reading
 
-- [!identifiers](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#identifiers)
-- [!impliedrelationships](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#impliedrelationships)
+- [!identifiers](https://docs.structurizr.com/dsl/language#identifiers)
+- [!impliedrelationships](https://docs.structurizr.com/dsl/language#impliedrelationships)
 
