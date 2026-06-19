@@ -6,11 +6,11 @@
 
 You may have noticed that `Structurizr DSL` does not handle the 4th level, the `code` one. As stressed before, this one is complex to streamline and thus to craft tooling around. Moreover, many modern `IDE` already provide meaningful toolkit to surface information such as `project dependency diagram` or `class diagram`. Obviously, if you think you are lacking something, it is up to you to craft the missing link by either enriching existing tooling, crafting your own, ...
 
-Let's see how one could do so by wringing the `Structurizr` pipeline.
+Let's see how you can do so by wringing the `Structurizr` pipeline.
 
 One last time, coming from `component` diagram, imagine you dapped in the `Uploading` green box. At this low-level stage, we need to refine the way we will craft the bounding context we are focusing at. A good way to shape modern application is to stick to **hexagonal** (`onion`, `port & adapter`, & Co siblings) architecture. It is then very easy to highlight the different projects involved, including the layer they belong to. It is now time to really detail the technical stack. Pay attention to the way you name your project, and of course provide more than ever meaningful description to sum up responsibility of each projects.  
 
-> Following stuff is a trick, so you need to accommodate some mismatches regarding taxonomy, and some mind shifting. Goal is to stress that one could achieve this leveraging existing stack.
+> Following stuff is a trick, so you need to accommodate some mismatches regarding taxonomy, and some mind shifting. Goal is to stress that you can achieve this leveraging existing stack.
 
 1. ✏️ Create a `workspace`
 	```diff
@@ -75,4 +75,4 @@ One last time, coming from `component` diagram, imagine you dapped in the `Uploa
 
 📘 Completing this stage should lead to this [final workspace](./workspace.dsl).  
 
-You see how one could leverage existing tooling to experiment and open new horizons. Hands on stack outside off the box is one of the most effective way to sustain evolution. 
+You see how you can leverage existing tooling to experiment and open new horizons. Hands-on work outside the box is one of the most effective ways to sustain evolution.

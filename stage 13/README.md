@@ -4,12 +4,12 @@
 ![](https://img.shields.io/badge/c4-!impliedRelationships-c49060)  
 
 In this module, you will:
-- Undersand how `identifiers` work
-- Undersand how `relationships` work
+- Understand how `identifiers` work
+- Understand how `relationships` work
 
 ⌛ Estimated time to complete: 10 min
 
-## Undersand how identifiers work
+## Understand how identifiers work
 
 Provide identity to `software model` elements is necessary to reference them eg within `relationship` or `views`. It is used to stick to `!identifiers hierarchical`, but for very simple use case. Of course, you need to provide full lineage when you reference an element, which seems counter productive:
 
@@ -38,7 +38,7 @@ workspace {
 }
 ```
 
-One could argue you could workaround this way:
+You could argue that you can work around this in the following way:
 
 ```diff
 workspace {

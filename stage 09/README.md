@@ -74,7 +74,7 @@ views {
 </details><br> 
 
 ✏️ Amend some points:
-- As we do have 2 personas, we have to materiliaze 2 user workstations, one hosting `MILA`, the other hosting `Icarus`.
+- As we do have 2 personas, we have to materialize 2 user workstations, one hosting `MILA`, the other hosting `Icarus`.
 - Obviously, `virtual device` is replaced by `mobile device`
 - Kubernetes being the de-facto standard for remote orchestration, we swap previous `docker-compose` layer. 
 
@@ -229,7 +229,7 @@ prod_ = deploymentEnvironment "prod" {
 
 ![](structurizr-1-ProdDeployment-group-missing-relationships.svg)
 
-Relationships are no more tangled, because they simply disapear... 
+Relationships are no more tangled, because they simply disappear... 
 
 ✏️ Fix that by spreading over `deploymentGroup` information among other `container instance` & `software system instance`. 
 
@@ -366,7 +366,7 @@ prod_ = deploymentEnvironment "prod" {
 
 ✏️ Improve rendering by introducing new style for `infrastructure node`. 
 
-Eg, picking new color schema to align with `Cornifer` one strenghtens consistency.
+Eg, picking new color schema to align with `Cornifer` one strengthens consistency.
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
 
@@ -432,7 +432,7 @@ Assuming you have properly [instrumented](https://docs.microsoft.com/en-us/aspne
 deploymentNode "Orchestration" "" "Docker-compose" "#dockerCompose" 1 {
     deploymentNode "mcr.microsoft.com/dotnet/aspnet:6.0" "" "Docker" "#docker" 1 {
         api_ = containerInstance mila.api "" "" {
-+           healthCheck "API is up & running" "http://localhost:5000/healthz" 60 0
++           healthCheck "API is up and running" "http://localhost:5000/healthz" 60 0
         }
     }
 ```

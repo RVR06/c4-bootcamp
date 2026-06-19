@@ -81,7 +81,7 @@ Deployment can be expressed using:
 
 📘 Completing this stage should lead to this [final workspace](./workspace.dsl).  
 
-You see how one could leverage `Structurizr` semantic to accuretaly materialize how a web application is deployed.
+You see how you can leverage `Structurizr` semantic to accurately materialize how a web application is deployed.
 
 ## Further reading
 

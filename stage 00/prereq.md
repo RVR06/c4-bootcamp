@@ -1,13 +1,16 @@
 # PREREQUISITES
 
 Dear reader, you are:
-* A windows user **with** a valid docker license. Follow the ☀️.
-* A windows user **without** docker license. Follow the ☁️.
-* A linux user. Follow the ❄️.
+* A Windows user **with** a valid Docker license. Follow the ☀️.
+* A Windows user **without** a Docker license. Follow the ☁️.
+* A Linux user. Follow the ❄️.
 
 This recipe has been tested with:
 * ☀️ Windows 10
 * ☁️ Windows 10, Ubuntu 20.04.4 LTS installed on WSL2
+
+* Cornifer v2.0.0
+* Structurizr/lite:2025.11.08
 
 
 This course expects the following.
@@ -18,7 +21,7 @@ Attendees have basic exposure to `C4 model`. Reading through the [C4 model serie
 
 ## Git ☀️☁️❄️
 
-A Github account and basic knowledge of [Git](https://git-scm.com)
+A GitHub account and basic knowledge of [Git](https://git-scm.com)
 
 ## Docker ☀️☁️❄️
 
@@ -42,7 +45,7 @@ After that, you should be able to successfully run:
 
 ### ☁️
 
-With the recent changes in `Docker desktop` pricing, one could leverage `WSL2` to power `docker` instead:
+With the recent changes in `Docker desktop` pricing, you can leverage `WSL2` to power `docker` instead:
 1. Install a `WSL2` distribution (warning, it won't work with `WSL1`)
 1. Install docker engine on this [distribution](https://docs.docker.com/engine/install/). Optionally, you can:
     1. Allow yourself to use docker without [root privileges](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
@@ -93,11 +96,11 @@ $ docker version
 
 ## VS Code editor ☀️☁️❄️
 
-An up to date installation of [VS Code editor](https://code.visualstudio.com).
+An up-to-date installation of [VS Code editor](https://code.visualstudio.com).
 
 ## Cornifer ☀️☁️❄️
 
-Authoring file  benefits from dedicated tooling. Main objective of such tooling is to support user with edition & validation. We all are used to leverage dedicated IDE when crafting software. Sadly, C4 DSL does not come with first class citizen tooling. To fill this gap, and enforce consistency along the whole workflow, a dedicated VS Code extension has been shaped, aka [Cornifer](https://github.com/rvr06/cornifer/blob/main/README.md). While you could certainly achieve great results by other means, `VS Code + Cornifer` is the recommended stack to draw on.
+Authoring files benefits from dedicated tooling. The main objective of such tooling is to support users with editing and validation. We are all used to leveraging dedicated IDEs when crafting software. Sadly, C4 DSL does not come with first-class tooling. To fill this gap and enforce consistency across the whole workflow, a dedicated VS Code extension has been developed, namely [Cornifer](https://github.com/rvr06/cornifer/blob/main/README.md). While you can certainly achieve great results by other means, `VS Code + Cornifer` is the recommended stack.
 
 ### ☀️❄️
 

@@ -1,10 +1,10 @@
 # BOOTCAMP
 
-We introduced the concept of [architecture as code or code-first approach](https://rvr06.github.io/c4-bootcamp/docs/code). We took the opportunity to leverage [Structurizr tool suite](https://rvr06.github.io/c4-bootcamp/docs/code/#structurizr) to support the end-user journey. However, most of the journey focused on what one could expect to gain from a single model defined as code, without dwelling on how authoring this model for too long. It is now time to address this point. 
+We introduced the concept of [architecture as code, or a code-first approach](https://rvr06.github.io/c4-bootcamp/docs/code). We took the opportunity to leverage the [Structurizr tool suite](https://rvr06.github.io/c4-bootcamp/docs/code/#structurizr) to support the end-user journey. However, most of that journey focused on what you can gain from a model defined as code, without spending too much time on how to author that model. It is now time to address this point.
 
 ## What will you learn from this course
 
-Leveraging an hypothetical [requirement](./stage%2000/specs.md), this bootcamp will guide you over tiny stages to gradually define and refine a compelling `software model`. Alongside his journey, one will be exposed to multiple dimensions a `software model` should cover. Unfolding each stage will fuel the reader with insights regarding both the matching `structurizr` syntax and the underlying `C4` philosophy.  
+Leveraging a hypothetical [requirement](./stage%2000/specs.md), this bootcamp will guide you through small stages to gradually define and refine a compelling `software model`. Along the way, you will be exposed to the multiple dimensions a `software model` should cover. Each stage gives insight into both the corresponding `Structurizr` syntax and the underlying `C4` philosophy.
 
 > The course is self-directed learning. You can do it at whatever pace you wish.
 
@@ -168,9 +168,9 @@ Each stage contains the following structure:
 Each `C4 bootcamp` stage contains a `README` which explains the following:
 1. The `Structurizr` concepts (eg ![](https://img.shields.io/badge/model-container-c92d39)) and tools you will be applying in the lesson, along with links to any relevant documentation or examples.
 1. Step-by-step instructions (✏️) on how to modify the `workspace` to match the expected one at the end of each lesson. Feel free to jump from ✏️ to ✏️, if you want to quickly unfold the stage.
-1. If you get stuck following the step-by-step instructions, each lesson contains check points (📙) and a completed `workspace.dsl` (📘) file that shows the expected output. You can compare this against your own code and see what you need to do differently.
+1. If you get stuck following the step-by-step instructions, each lesson contains checkpoints (📙) and a completed `workspace.dsl` (📘) file that shows the expected output. You can compare this against your own code and see what you need to do differently.
 
-Each stage enrichs the previous one, allowing one to tailor `software model` from scratch up to completion. If you are interested on an intermediate stage and don't want to unfold the whole journey prior to it, just take the previous state (`*.dsl` files) as your starting point. Eg, if you would like to exercise `stage 07`, just copy & paste `*.dsl` from `stage 06`, and engage.
+Each stage enriches the previous one, allowing you to tailor a `software model` from scratch to completion. If you are interested in an intermediate stage and don't want to go through the full journey first, just take the previous state (`*.dsl` files) as your starting point. For example, if you would like to exercise `stage 07`, copy and paste the `*.dsl` files from `stage 06`, then continue from there.
 
 ### When you're doing the lessons...
 
@@ -187,10 +187,10 @@ We will provide explanations of all key concepts throughout each lesson, but of 
 ### Tools / prerequisites
 
 This course expects the following:
-- A Github account and basic knowledge of Git
-- An up to date installation of VS Code editor
-- An up to date `Cornifer` extension
-- An up & running docker daemon
+- A GitHub account and basic knowledge of Git
+- An up-to-date installation of VS Code editor
+- An up-to-date `Cornifer` extension
+- An up-and-running Docker daemon
 
 See [here](./stage%2000/prereq.md) for details.
 

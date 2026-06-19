@@ -19,7 +19,7 @@ Assume we start from a meaningful [workspace](./source.dsl).
 
 ## Materialize technology as systems
 
-Reading through given workspace, reader is exposed to some technologies, such as `Blazor`, `Mongo DB` & `Xamarin`. Because they deserve more than the couple of words `technology` field allow us to fill in. Because you should prevent yourself to assume upstream audience awareness on such topics. Because some technology stack are so broad enough, that sometimes we need more than a name or an acronym to fully grasp usage intent. For all those reaons, and probably many valid more, everyone will benefit of properly materializing them. As there is no dedicated `element`, one could leverage `software system` to do so.
+Reading through the given workspace, the reader is exposed to some technologies, such as `Blazor`, `Mongo DB`, and `Xamarin`. They deserve more than the few words the `technology` field allows us to provide. We should also avoid assuming that upstream audiences are already familiar with these topics. Some technology stacks are broad enough that we need more than a name or acronym to fully grasp the usage intent. For all these reasons, and many more, everyone benefits from materializing them properly. As there is no dedicated `element`, you can leverage `software system` to do so.
 
 ✏️ Introduce dedicated `software systems` and implied `relationships`.  
 ✏️ Feel free to use `url` field to feed reader with a strong entry point.  
@@ -146,7 +146,7 @@ This time, outcome is far better as hidding metadata will prevent audience for m
 
 📘 Completing this stage should lead to this [final workspace](./workspace.dsl).  
 
-You see how one could leverage existing tooling to experiment and open new horizons. Hands on stack outside off the box is one of the most effective way to sustain evolution. `Struturizr` will benefit of providing a built-in `technology landscape` view, aka `C4.T`. Technology stack dimension is a 1st class citizen in an architecture design, and deseves to be processed accordingly.
+You see how you can leverage existing tooling to experiment and open new horizons. Hands-on work outside the box is one of the most effective ways to sustain evolution. `Structurizr` would benefit from providing a built-in `technology landscape` view, aka `C4.T`. The technology stack dimension is a first-class citizen in architecture design, and it deserves to be handled accordingly.
 
 ## Further reading
 

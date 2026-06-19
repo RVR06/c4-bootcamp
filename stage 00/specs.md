@@ -1,6 +1,6 @@
 # SPECIFICATION
 
-For this session we will use an hypothetical use case, namely __Turning one or multiple pictures into a rendering material for Labyrinth__, to see how one could potentially craft the implementation sticking to `C4 model`. Codename of the project is `MILA` standing for `Multiple Images Lightweight Acquisition`.
+For this session we will use a hypothetical use case, namely __Turning one or multiple pictures into a rendering material for Labyrinth__, to see how you can potentially craft the implementation while sticking to the `C4 model`. The project codename is `MILA`, which stands for `Multiple Images Lightweight Acquisition`.
 
 Main intent is to shape a `software system` that could provide lightweight material acquisition facilities & craft self-contained material assets.
 

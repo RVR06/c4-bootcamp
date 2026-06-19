@@ -6,7 +6,7 @@
 In this module, you will learn how to:
 - Activate documentation tab within `Structurizr` through `!docs`
 - Use the `embed` tag within `markdown` file
-- Leverage `Struturizr` export facilities
+- Leverage `Structurizr` export facilities
 
 ⌛ Estimated time to complete: 10 min
 
@@ -39,9 +39,9 @@ Check your changes by activating `Cornifer preview` and navigate to the `documen
 
 ## Leverage embed tag 
 
-What if your markdown could embed dynamic & up to date `C4` views you can interact with, instead of plain old snapshots you are used to? 
-- No more tedious and error prone snapshot export & documentation update
-- Not only the doc is up to date, but content is interactive
+What if your markdown could embed dynamic & up-to-date `C4` views you can interact with, instead of plain old snapshots you are used to? 
+- No more tedious and error-prone snapshot export & documentation update
+- Not only the doc is up-to-date, but content is interactive
 
 ✏️ Amend your previously created `markdown` file:
 
@@ -73,7 +73,7 @@ Prefer `.svg` over `.png` if you need to accommodate proper zooming. However, an
 
 You see how a single `software model` can be operated in different ways, surfacing `views` that can in turn feed technical documentation or slide deck downstream. Main goal of defining a `software model` is to support decision making, wherever they occur, so it is great to see we are not stuck to a corner. Define once, explore where makes sense.
 
-After this documentation interlude, go back to `workspace` and see how one could [tidy up](../stage%2015/README.md) `model` by introducing `group`.
+After this documentation interlude, go back to `workspace` and see how you can [tidy up](../stage%2015/README.md) `model` by introducing `group`.
 
 ## Further reading
 

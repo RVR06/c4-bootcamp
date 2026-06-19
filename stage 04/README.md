@@ -30,7 +30,7 @@ workspace "MILA" "Multiple Images Lightweight Acquisition" {
 
 ## Tag & theme
 
-One may have noticed there is some asymetry on the `software model` we are shaping that could be better materiliazed, namely the fact that it involves 2 different `software systems` that does not play the same role: `MILA` is the main one, `Icarus` is a satellite one. It could be obvious for folks regularly involved in the project, but remember that audience is heterogenous and making stuff explicit does not harm. Let's see how one could improve this by introducing a new dimension to our `software model` via `tag`.
+You may have noticed there is some asymmetry in the `software model` we are shaping that could be better materialized, namely the fact that it involves 2 different `software systems` that do not play the same role: `MILA` is the main one, while `Icarus` is a satellite system. This may be obvious for people regularly involved in the project, but remember that the audience is heterogeneous, and making things explicit does no harm. Let's see how to improve this by introducing a new dimension to our `software model` via `tag`.
 
 ✏️ Fill the `tag` field of `Icarus` `software system`.
 

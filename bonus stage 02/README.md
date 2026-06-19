@@ -202,7 +202,7 @@ As expected, `url` is available through pop-up (in magenta) and navigable by dou
 
 📘 Completing this stage should lead to this [final workspace](./workspace.dsl).  
 
-You see how one could leverage fields like `description` or `url`, or play with `themes` to tailor outcome. UX through `Structurizr` is not as smooth as expected, but those ideas could lead to interesting evolution.
+You see how you can leverage fields like `description` or `url`, or play with `themes` to tailor outcome. UX through `Structurizr` is not as smooth as expected, but those ideas could lead to interesting evolution.
 
 ## Further reading
 

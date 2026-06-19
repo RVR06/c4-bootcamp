@@ -7,7 +7,7 @@ date: '2021-11-06'
 author: Romain Vasseur
 ---
 
-Previously, we saw that **sketch-first** approach, as appealing as it may look like, comes with painful drawbacks that can prevent sizable project to properly scale eg huge maintenance cost, human error prone, ...
+Previously, we saw that **sketch-first** approach, as appealing as it may look like, comes with painful drawbacks that can prevent sizable project to properly scale eg huge maintenance cost, human error-prone, ...
 
 This post will give some insights of the **code-first** or **architecture as code** approach, stressing out pros and cons of such a method.
 It should be read in parallel with [previous one]({{% relref "/docs/sketch" %}}), which covers the **architecture as sketch** or **sketch-first** approach.
@@ -93,7 +93,7 @@ As an architecture as code evangelist, Simon Brown (creator of the C4 model) pro
 - [C4 CLI](https://github.com/structurizr/cli): A command line utility for Structurizr, designed to be used in conjunction with the Structurizr DSL
 - [Structurizr](https://structurizr.com/): Visualize, document and explore your software architecture  
 
-From here, we will leverage Structurizr suite to show case what one could expect from this model-first approach but keep in mind you should be able to end up with similar results using other alternatives.
+From here, we will leverage Structurizr suite to show case what you can expect from this model-first approach but keep in mind you should be able to end up with similar results using other alternatives.
 Moreover, Structurizr is smart enough to ship a docker-based lite version everyone can locally play with. Give it a try.
 
 Assuming your described your model leveraging the C4 DSL (200 lines of text for this particular sample), Structurizr crafts for you:
@@ -114,7 +114,7 @@ Assuming your described your model leveraging the C4 DSL (200 lines of text for 
 | ![](structurizr_12.svg) | Every diagram comes with its own dynamic legend to underline active elements & their meaning. |
 | ![](structurizr_13.png) | Graph view can be generated on-demand if you need to shift gears. |
 | ![](structurizr_14.jpg) | Architecture Decision Record (see next chapter) support. |
-| ![](structurizr_15.png) | Your markdown can embed dynamic & up to date C4 views you can interact with (not simple snapshots). |
+| ![](structurizr_15.png) | Your markdown can embed dynamic & up-to-date C4 views you can interact with (not simple snapshots). |
 
 
 

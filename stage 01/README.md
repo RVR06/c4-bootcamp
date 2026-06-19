@@ -11,7 +11,7 @@ In this module, you will learn how to:
 - Shape a `workspace`
 - Define a `software system`
 - Visualize a `software model`
-- Exercise the end to end pipeline, back and forth, between `DSL` and `Structurizr`.
+- Exercise the end-to-end pipeline, back and forth, between `DSL` and `Structurizr`.
 
 ⌛ Estimated time to complete: 15 min
 
@@ -83,7 +83,7 @@ Exclamation mark prefix lines introduce some good default which will be explaine
 
 ✏️ Save your file. 
 
-You may noticed that it triggered formatting, preventing you to commit and push wrong-formatted model, that could noise team work.
+You may have noticed that this triggered formatting, preventing you from committing and pushing a poorly formatted model that could create noise in team collaboration.
 
 ## Visualize your model
 

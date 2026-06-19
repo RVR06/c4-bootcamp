@@ -57,7 +57,7 @@ mila = softwareSystem "MILA" "Provides [...]" "" {
 
 ![](structurizr-1-Container-full.svg)
 
-Remember, as part of the code base, `software model` should obey same rules. **D**on't **R**epeat **Y**ourself is a well-known software pattern. Here, we duplicate `"Frontend"` and `"Backend"` twice, and it is not very sustainable. We could have more complex label, such as `"Focus on frontend relative blocks"` instead of `"Frontend"`. Anyway, if we decide to change at some point the label, we need to make many updates and it is error prone. We are used to leverage `constant` to tackle this kind of issue in our code base, and it is exactly how the `DSL` works.
+Remember, as part of the code base, `software model` should obey same rules. **D**on't **R**epeat **Y**ourself is a well-known software pattern. Here, we duplicate `"Frontend"` and `"Backend"` twice, and it is not very sustainable. We could have more complex label, such as `"Focus on frontend relative blocks"` instead of `"Frontend"`. Anyway, if we decide to change at some point the label, we need to make many updates and it is error-prone. We are used to leverage `constant` to tackle this kind of issue in our code base, and it is exactly how the `DSL` works.
 
 ```c4u
 # Declare a constant

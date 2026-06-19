@@ -60,7 +60,7 @@ views {
 ```
 </details><br>
 
-Notice how `Struturizr` enriched your views library with the imported one:
+Notice how `Structurizr` enriched your views library with the imported one:
 
 ![](./structurizr-1-Observability-C4-2.svg)
 
@@ -92,7 +92,7 @@ Once you complement `model` & `views` sections, it's now time to link `observabi
 
 ## Amend
 
-`Observability` `software system` is now part of our ecosystem. But it appears to not be considered as external, and thus does not benefit of the semantic styling we applied so far. It makes sense as it has been crafted outside with no awereness of usage. Luckily, `Structurizr` allows for downstream tagging and styling to accommodate specific situation.
+`Observability` `software system` is now part of our ecosystem. But it appears to not be considered as external, and thus does not benefit of the semantic styling we applied so far. It makes sense as it has been crafted outside with no awareness of usage. Luckily, `Structurizr` allows for downstream tagging and styling to accommodate specific situation.
 
 ✏️ Amend fragment by applying the `#external` `tag` to `obs` `software system`
 

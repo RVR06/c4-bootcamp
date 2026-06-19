@@ -36,7 +36,7 @@ identifier = person "name" "description" "tags"
 ```
 </details><br>
 
-You may notice at this stage that your workspace is colorful. It is on purpose to decrease mental load.
+You may notice at this stage that your workspace is colorful. This is intentional to decrease mental load.
 
 ![](highlighting.gif)
 
@@ -50,11 +50,11 @@ As a corollary, colorless lines should trigger some warning, as it often means m
 |-|-|
 | ![](./structurizr-1-SystemLandscape-01.svg) | ![](./structurizr-1-SystemContext-01.svg) |
 
-As expected, `person` has been added to the model. However, it is not obvious that `Matt` is a `person`. It is rendered as a plain old box, and you need to focus on the second line - the one embraced with square brackets `[]` - to notice that element type is provided to you, namely `[Software System]` and `[Person]`. So, even if information is prompted, this view requires some effort from the reader. We can live this way, but one could for sure improve the user experience. One may argue this extra workload is manageable. But remember 2 things here:
+As expected, `person` has been added to the model. However, it is not obvious that `Matt` is a `person`. It is rendered as a plain old box, and you need to focus on the second line - the one embraced with square brackets `[]` - to notice that element type is provided to you, namely `[Software System]` and `[Person]`. So, even if information is prompted, this view requires some effort from the reader. We can live this way, but you can for sure improve the user experience. One may argue this extra workload is manageable. But remember 2 things here:
 - Audience is by essence heterogenous. What is manageable for you does not mean it is manageable for all.
 - Workload, even the smallest one, that can be spared, has to be. This way, you can allocate more elsewhere.
 
-What about customizing our theme to materialize this difference? Have a look at which traits one could customize [here](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#element-style).
+What about customizing our theme to materialize this difference? Have a look at which traits you can customize [here](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#element-style).
 
 ✏️ Amend `theme.dslf` to discriminate `person` & `software system`.
 
@@ -182,7 +182,7 @@ For now, it may seem overkill, but as times goes and `workspace` complicates, it
 	* As `Matt`'s title - material scientist - highlights, we are talking about a seasoned user. We capture in the description how he will interact with our application.
 	* `Simon` profile is different, he does not interact with `MILA` directly, that while he only appears with `system landscape`.  
 - We materialize coupling with external `software system`, here `Icarus`. You may notice that we do not provide neither generic description nor exhaustive listing of facilities. We pick those which are contextually meaningful. 
-- We use one-way technology agnostic arrows for `relationships` with straightforward intent. Prefer plain old English sentence starting with a verb. One can then fluently read the diagram, prefixing & suffixing the sentence accordingly e.g. `Material scientist` sends pictures to `MILA` or `Icarus` fetches materials from `MILA`. At this stage, it seems useless to give more insights especially regarding technology stack.
+- We use one-way, technology-agnostic arrows for `relationships` with straightforward intent. Prefer plain old English sentence starting with a verb. One can then fluently read the diagram, prefixing & suffixing the sentence accordingly e.g. `Material scientist` sends pictures to `MILA` or `Icarus` fetches materials from `MILA`. At this stage, it seems useless to give more insights especially regarding technology stack.
 
 ## Wrapup
 
@@ -190,7 +190,7 @@ For now, it may seem overkill, but as times goes and `workspace` complicates, it
 
 As we enrich model, it is now easier to grasp how `system landscape` & `system context` complement each others, especially how landscape awareness strengthens decision making. Knowing that `Simon` plays a role can be non meaningful for developer who will develop `MILA` internals, but makes a lot of sense for stakeholders. Remember, heterogenous audience shares common interest but appreciates tailored insights. Leveraging traits such as `color` and `shape` to convey semantic enforces focus while enriching context.  
 
-Let's see how one could go a step further in the [next stage](../stage%2004/README.md)
+Let's see how you can go a step further in the [next stage](../stage%2004/README.md)
 
 ## Further reading
 

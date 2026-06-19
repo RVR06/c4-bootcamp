@@ -97,7 +97,7 @@ views {
 
 ![](structurizr-1-DevDeployment.png)
 
-One could also leverage some existing [themes](https://structurizr.com/help/themes), by using `theme` keyword:
+You can also leverage some existing [themes](https://structurizr.com/help/themes), by using the `theme` keyword:
 
 ```diff
 +views {
@@ -164,7 +164,7 @@ Logo has been automatically added within title area (bottom-left corner):
 
 📘 Completing this stage should lead to this [final workspace](./workspace.dsl).  
 
-You see how one could enhance views by enriching `theme`. Themes can be shared and should be reused to enforce consistency.  
+You see how you can enhance views by enriching `theme`. Themes can be shared and should be reused to enforce consistency.  
 
 [Next stage](../stage%2011/README.md) will introduce another useful feature.
 
