@@ -56,4 +56,4 @@ Especially useful when `software model` is becoming complex (like micro-services
 
 ## Further reading
 
-- [group](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#group)
+- [group](https://docs.structurizr.com/dsl/language#group)

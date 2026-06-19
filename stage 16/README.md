@@ -68,7 +68,7 @@ Notice how `Structurizr` enriched your views library with the imported one:
 
 Once you complement `model` & `views` sections, it's now time to link `observability` to your `software system`. Do so by materializing missing `relationships`. 
 
-✏️ Reference `obs` `software system` via [!ref](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#ref) keyword
+✏️ Reference `obs` `software system` via [!ref](https://docs.structurizr.com/dsl/language#ref) keyword
 ✏️ Plug `obs` into ecosystem by adding missing relationships
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
@@ -131,5 +131,5 @@ In `Object Oriented Programming` world, `inheritance` is never far away `composi
 
 ## Further reading
 
-- [include](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#includes)
-- [!ref](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#ref)
+- [include](https://docs.structurizr.com/dsl/language#includes)
+- [!ref](https://docs.structurizr.com/dsl/language#ref)

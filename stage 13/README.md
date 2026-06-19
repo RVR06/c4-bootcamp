@@ -87,6 +87,6 @@ We took time to craft a `software model`. Let's see how we can [share it](../sta
 
 ## Further reading
 
-- [!identifiers](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#identifiers)
-- [!impliedrelationships](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#impliedrelationships)
+- [!identifiers](https://docs.structurizr.com/dsl/language#identifiers)
+- [!impliedrelationships](https://docs.structurizr.com/dsl/language#impliedrelationships)
 

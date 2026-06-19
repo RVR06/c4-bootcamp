@@ -154,7 +154,7 @@ It is now time to start a [new stage](../stage%2002/README.md).
 
 ## Further reading
 
-- [workspace](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#workspace)
-- [model](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#model)
-- [softwareSystem](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#softwareSystem)
-- [views](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#views)
+- [workspace](https://docs.structurizr.com/dsl/language#workspace)
+- [model](https://docs.structurizr.com/dsl/language#model)
+- [softwareSystem](https://docs.structurizr.com/dsl/language#softwareSystem)
+- [views](https://docs.structurizr.com/dsl/language#views)

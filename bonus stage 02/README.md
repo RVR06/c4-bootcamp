@@ -206,5 +206,5 @@ You see how you can leverage fields like `description` or `url`, or play with `t
 
 ## Further reading
 
-- [theme](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#theme)
-- [url](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#url)
+- [theme](https://docs.structurizr.com/dsl/language#theme)
+- [url](https://docs.structurizr.com/dsl/language#url)

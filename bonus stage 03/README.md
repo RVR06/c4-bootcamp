@@ -85,10 +85,10 @@ You see how you can leverage `Structurizr` semantic to accurately materialize ho
 
 ## Further reading
 
-- [deployment environment](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#deploymentEnvironment)
-- [deployment node](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#deploymentNode)
-- [infrastructure node](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#infrastructurenode)
-- [software system instance](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#softwareSystemInstance)
-- [container instance](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#containerInstance)
-- [deployment view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#deployment-view)
-- [theme](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#theme)
+- [deployment environment](https://docs.structurizr.com/dsl/language#deploymentEnvironment)
+- [deployment node](https://docs.structurizr.com/dsl/language#deploymentNode)
+- [infrastructure node](https://docs.structurizr.com/dsl/language#infrastructurenode)
+- [software system instance](https://docs.structurizr.com/dsl/language#softwareSystemInstance)
+- [container instance](https://docs.structurizr.com/dsl/language#containerInstance)
+- [deployment view](https://docs.structurizr.com/dsl/language#deployment-view)
+- [theme](https://docs.structurizr.com/dsl/language#theme)

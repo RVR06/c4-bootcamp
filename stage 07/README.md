@@ -150,5 +150,5 @@ Another dimension that deserves a dedicated stage is the deployment one. [Here](
 
 ## Further reading
 
-- [animation view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#animation)
-- [dynamic view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#dynamic-view)
+- [animation view](https://docs.structurizr.com/dsl/language#animation)
+- [dynamic view](https://docs.structurizr.com/dsl/language#dynamic-view)

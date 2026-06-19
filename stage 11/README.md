@@ -9,7 +9,7 @@ In this module, you will learn how to:
 
 ⌛ Estimated time to complete: 10 min
 
-Most of the time, you want your view to contain everything that matters. You do this by specifying the `include *` field, where `Structurizr` does all the heavy [lifting](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#include) for you. You can also explicitly list what you want (not very sustainable in most cases), or use predicates. Those techniques are beyond this course but documented [there](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#include). Another common way to achieve the same goal is to leverage the built-in `filtered` view. Let's see how it works.
+Most of the time, you want your view to contain everything that matters. You do this by specifying the `include *` field, where `Structurizr` does all the heavy [lifting](https://docs.structurizr.com/dsl/language#include) for you. You can also explicitly list what you want (not very sustainable in most cases), or use predicates. Those techniques are beyond this course but documented [there](https://docs.structurizr.com/dsl/language#include). Another common way to achieve the same goal is to leverage the built-in `filtered` view. Let's see how it works.
 
 Assuming you do have a view you would like to filter, just start typing `filtered` and let `Cornifer` guide you:
 
@@ -95,4 +95,4 @@ Another great tool exists to vary viewpoints, and it is all about [next stage](.
 
 ## Further reading
 
-- [filtered-view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#filtered-view)
+- [filtered-view](https://docs.structurizr.com/dsl/language#filtered-view)

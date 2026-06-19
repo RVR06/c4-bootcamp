@@ -97,5 +97,5 @@ Let's have a look on other features in the [next stage](../stage%2013/README.md)
 
 ## Further reading
 
-- [!constants](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#constants)
-- [perspectives](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#perspectives)
+- [!constants](https://docs.structurizr.com/dsl/language#constants)
+- [perspectives](https://docs.structurizr.com/dsl/language#perspectives)

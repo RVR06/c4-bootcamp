@@ -139,6 +139,6 @@ Let's see how to replicate this approach in [next stage](../stage%2006/README.md
 
 ## Further reading
 
-- [container](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#container)
-- [technology](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#technology)
-- [container view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#container-view)
+- [container](https://docs.structurizr.com/dsl/language#container)
+- [technology](https://docs.structurizr.com/dsl/language#technology)
+- [container view](https://docs.structurizr.com/dsl/language#container-view)

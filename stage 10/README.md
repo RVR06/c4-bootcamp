@@ -11,7 +11,7 @@ In this module, you will learn how to:
 
 ## Enrich theme
 
-Remember the `styles` syntax. Exhaustive option can be found [here](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#element-style) and [there](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#relationship-style), but common ones used for `deployment` views are:
+Remember the `styles` syntax. Exhaustive option can be found [here](https://docs.structurizr.com/dsl/language#element-style) and [there](https://docs.structurizr.com/dsl/language#relationship-style), but common ones used for `deployment` views are:
 
 ```c4u
 element "#tag" {
@@ -170,5 +170,5 @@ You see how you can enhance views by enriching `theme`. Themes can be shared and
 
 ## Further reading
 
-- [branding](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#branding)
-- [theme](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#theme)
+- [branding](https://docs.structurizr.com/dsl/language#branding)
+- [theme](https://docs.structurizr.com/dsl/language#theme)

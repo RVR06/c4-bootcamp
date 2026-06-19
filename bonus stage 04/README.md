@@ -71,7 +71,7 @@ model {
 ```
 </details><br>
 
-✏️ Leverage `exclude` keyword to filter existing views. See [language reference](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#exclude) for usage.
+✏️ Leverage `exclude` keyword to filter existing views. See [language reference](https://docs.structurizr.com/dsl/language#exclude) for usage.
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
 
@@ -101,7 +101,7 @@ We are now back to previous state, with denoised `system landscape` and `system 
 ## Surface technology view
 
 ✏️ Introduce a new `system landscape` view.  
-✏️ Leverage `include` keyword to pick `elements` we would like to embed. See [language reference](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#include) for usage.
+✏️ Leverage `include` keyword to pick `elements` we would like to embed. See [language reference](https://docs.structurizr.com/dsl/language#include) for usage.
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
 
@@ -150,9 +150,9 @@ You see how you can leverage existing tooling to experiment and open new horizon
 
 ## Further reading
 
-- [software system](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#softwareSystem)
-- [tag](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#tags)
-- [url](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#url)
-- [systemLandscape view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#systemLandscape-view)
-- [filtered-view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#filtered-view)
-- [theme](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#theme)
+- [software system](https://docs.structurizr.com/dsl/language#softwareSystem)
+- [tag](https://docs.structurizr.com/dsl/language#tags)
+- [url](https://docs.structurizr.com/dsl/language#url)
+- [systemLandscape view](https://docs.structurizr.com/dsl/language#systemLandscape-view)
+- [filtered-view](https://docs.structurizr.com/dsl/language#filtered-view)
+- [theme](https://docs.structurizr.com/dsl/language#theme)

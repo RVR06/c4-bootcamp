@@ -54,7 +54,7 @@ As expected, `person` has been added to the model. However, it is not obvious th
 - Audience is by essence heterogenous. What is manageable for you does not mean it is manageable for all.
 - Any workload, even the smallest, should be reduced when possible. This way, you can allocate focus elsewhere.
 
-What about customizing our theme to materialize this difference? Have a look at which traits you can customize [here](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#element-style).
+What about customizing our theme to materialize this difference? Have a look at which traits you can customize [here](https://docs.structurizr.com/dsl/language#element-style).
 
 ✏️ Amend `theme.dslf` to discriminate `person` & `software system`.
 
@@ -149,7 +149,7 @@ Everything seems to react as expected:
 ```
 </details><br>
 
-As for `element` like `person` or `software system`, `relationships` are [themable](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#relationship-style).
+As for `element` like `person` or `software system`, `relationships` are [themable](https://docs.structurizr.com/dsl/language#relationship-style).
 
 ```diff
 views {
@@ -194,5 +194,5 @@ Let's see how you can go a step further in the [next stage](../stage%2004/README
 
 ## Further reading
 
-- [person](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#person)
-- [relationship](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#relationship)
+- [person](https://docs.structurizr.com/dsl/language#person)
+- [relationship](https://docs.structurizr.com/dsl/language#relationship)

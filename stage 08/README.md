@@ -257,8 +257,8 @@ Let's move to the [next stage](../stage%2009/README.md) to scale this approach.
 
 ## Further reading
 
-- [deployment environment](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#deploymentEnvironment)
-- [deployment node](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#deploymentNode)
-- [software system instance](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#softwareSystemInstance)
-- [container instance](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#containerInstance)
-- [deployment view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#deployment-view)
+- [deployment environment](https://docs.structurizr.com/dsl/language#deploymentEnvironment)
+- [deployment node](https://docs.structurizr.com/dsl/language#deploymentNode)
+- [software system instance](https://docs.structurizr.com/dsl/language#softwareSystemInstance)
+- [container instance](https://docs.structurizr.com/dsl/language#containerInstance)
+- [deployment view](https://docs.structurizr.com/dsl/language#deployment-view)

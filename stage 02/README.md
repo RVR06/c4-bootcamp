@@ -62,7 +62,7 @@ Without any theme, the default rendering of `views` is:
 + 	}
 ```
 
-Theme engine works by pairing styles with tags. Every `Structurizr` keyword is tagged under the hood by built-in tags (`softwareSystem` keyword <-> `Software System` tag). Of course, you can enrich your model with custom tags. Exhaustive possibilities are listed [here](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#element-style) for `elements` and [there](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#relationship-style) relationships.
+Theme engine works by pairing styles with tags. Every `Structurizr` keyword is tagged under the hood by built-in tags (`softwareSystem` keyword <-> `Software System` tag). Of course, you can enrich your model with custom tags. Exhaustive possibilities are listed [here](https://docs.structurizr.com/dsl/language#element-style) for `elements` and [there](https://docs.structurizr.com/dsl/language#relationship-style) relationships.
 
 ✏️ Reference this theme from the `views` leveraging `!include` keyword:
 
@@ -90,6 +90,6 @@ Let's see where theme really shines in the [next stage](../stage%2003/README.md)
 
 ## Further reading
 
-- [systemLandscape view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#systemLandscape-view)
-- [systemContext view](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#systemContext-view)
-- [theme](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#theme)
+- [systemLandscape view](https://docs.structurizr.com/dsl/language#systemLandscape-view)
+- [systemContext view](https://docs.structurizr.com/dsl/language#systemContext-view)
+- [theme](https://docs.structurizr.com/dsl/language#theme)

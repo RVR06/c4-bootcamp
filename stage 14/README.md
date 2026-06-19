@@ -77,5 +77,5 @@ After this documentation interlude, go back to `workspace` and see how you can [
 
 ## Further reading
 
-- [!docs](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#documentation)
+- [!docs](https://docs.structurizr.com/dsl/language#documentation)
 - [embed](https://structurizr.com/help/documentation/diagrams)

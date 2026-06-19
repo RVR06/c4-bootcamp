@@ -155,7 +155,7 @@ What about digging in a bit deeper in the [next stage](../stage%2005/README.md)?
 
 ## Further reading
 
-- [comment](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#comments) 
-- [tag](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#tags)
-- [theme](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#theme)
-- [url](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#url)
+- [comment](https://docs.structurizr.com/dsl/language#comments) 
+- [tag](https://docs.structurizr.com/dsl/language#tags)
+- [theme](https://docs.structurizr.com/dsl/language#theme)
+- [url](https://docs.structurizr.com/dsl/language#url)

@@ -22,7 +22,7 @@ We'll cover both scenarios in this stage.
 
 All scenarios share the same entry point, namely creating a brand-new `workspace` that _extends_ an existing one.
 
-✏️ Create a new `workspace` which extends the [existing one](./core/workspace.dsl), located in the `core` folder. Note that you can also provide an `url` to extend an online `workspace`. Feel free to look at [language reference](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#workspace) for details.
+✏️ Create a new `workspace` which extends the [existing one](./core/workspace.dsl), located in the `core` folder. Note that you can also provide an `url` to extend an online `workspace`. Feel free to look at [language reference](https://docs.structurizr.com/dsl/language#workspace) for details.
 
 <details><summary>📙 REVEAL THE ANSWER</summary>
 
@@ -211,5 +211,5 @@ Document as well the technology stack changes by filling up dedicated `ADR` and 
 
 ## Further reading
 
-- [extends](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#workspace)
-- [!ref](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#ref)
+- [extends](https://docs.structurizr.com/dsl/language#workspace)
+- [!ref](https://docs.structurizr.com/dsl/language#ref)

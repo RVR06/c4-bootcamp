@@ -385,7 +385,7 @@ views {
 
 ![](structurizr-1-ProdDeployment-colored-style.svg)
 
-It is still difficult for laypeople to distinguish elements quickly. Luckily, there are plenty of [traits](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#element-style) you can modify to strengthen visual identity.
+It is still difficult for laypeople to distinguish elements quickly. Luckily, there are plenty of [traits](https://docs.structurizr.com/dsl/language#element-style) you can modify to strengthen visual identity.
 
 ✏️ What about changing `shape` & `height` as well to explicit?
 
@@ -513,8 +513,8 @@ Whether you leverage autolayout or you tailor a custom one, ensure you keep [con
 
 ## Further reading
 
-- [deployment group](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#deploymentGroup)
-- [infrastructure node](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#infrastructurenode)
-- [health check](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md#healthcheck)
+- [deployment group](https://docs.structurizr.com/dsl/language#deploymentGroup)
+- [infrastructure node](https://docs.structurizr.com/dsl/language#infrastructurenode)
+- [health check](https://docs.structurizr.com/dsl/language#healthcheck)
 
 [^1]: `Health check` is a widespread facility in cloud environments. It allows an administrator or service to ping a dedicated URL and assess the health of an endpoint. Having an easy way to visualize ecosystem health at once is very useful when you need to monitor or diagnose issues.
